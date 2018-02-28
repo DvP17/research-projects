@@ -1,0 +1,649 @@
+"number","base_treaty","name","entry_type","full_fta","standards","investments","services","procurement","competition","iprs","depth_index","depth_rasch"
+"1",1,"Afghanistan India","base treaty",0,1,0,0,0,1,0,2,-0.370565920730555
+"2",2,"African Common Market","base treaty",1,0,0,0,0,0,0,1,-1.43010338995022
+"3",3,"African Economic Community","base treaty",1,1,0,0,0,0,0,2,-1.43010338995022
+"4",4,"Agadir Agreement","base treaty",1,1,0,0,0,0,0,2,-0.231064099541211
+"5",5,"Albania Bosnia and Herzegovina","base treaty",1,1,0,0,0,0,0,2,0.915919883617618
+"6",6,"Albania Bulgaria","base treaty",1,1,0,0,0,0,0,2,0.6876973276499
+"7",7,"Albania Croatia","base treaty",1,1,0,0,0,0,0,2,0.861141856807316
+"8",8,"Albania EC SAA","base treaty",1,1,0,1,1,0,0,4,1.17603126807745
+"9",9,"Albania EFTA","base treaty",1,1,1,0,1,0,0,4,1.02219553016094
+"10",10,"Albania Kosovo","base treaty",1,1,0,0,0,0,0,2,0.861141856807225
+"11",11,"Albania Macedonia","base treaty",1,1,0,0,0,0,0,2,0.861141856807225
+"12",12,"Albania Moldova","base treaty",1,1,0,0,0,0,0,2,0.915919883617618
+"13",13,"Albania Romania","base treaty",1,1,0,0,0,0,0,2,0.49490967401689
+"14",14,"Albania Serbia","base treaty",1,1,0,0,0,0,0,2,0.91591988361765
+"15",15,"Albania Turkey","base treaty",1,1,0,0,0,0,0,2,0.747268409001945
+"16",16,"Algeria EC","base treaty",0,0,0,0,0,1,0,1,0.0977138215904128
+"17",17,"Algeria EC Euro-Med Association Agreement","base treaty",1,1,0,1,0,0,0,3,0.494909674016914
+"18",18,"Algeria Jordan","base treaty",1,0,0,0,0,0,0,1,-0.53527495491679
+"19",19,"Algeria Morocco","base treaty",1,0,0,0,0,1,0,2,-0.000736132187408954
+"20",20,"Algeria Tunisia","base treaty",0,1,0,0,0,0,0,1,-0.535274955106794
+"22",22,"Andean Community Brazil","base treaty",0,1,0,0,0,0,0,1,-0.000736132187356486
+"694a",23,"Andean Community Sucre Protocol","consolidated",1,0,0,0,0,0,0,1,-0.738651317663807
+"24",24,"Andean Countries Argentina","base treaty",0,1,0,0,0,0,0,1,-0.000736132187356486
+"25",25,"Andean Countries MERCOSUR","base treaty",0,0,0,0,0,0,0,0,-0.000736132287944866
+"26",26,"Andean Group Cartagena Agreement","base treaty",0,0,0,0,0,0,0,0,-0.370565920730597
+"27a",26,"Andean Group Quito Protocol","consolidated",1,1,0,0,0,0,0,2,-0.231064099057631
+"23a",27,"Andean Community Trujillo Protocol","consolidated",1,1,0,0,0,0,0,2,-0.535274954878768
+"28",28,"Andorra EC","base treaty",1,0,0,0,0,0,0,1,-1.00955547679032
+"29",29,"Arab Common Market","base treaty",1,0,0,0,0,0,0,1,-0.370565920730577
+"30",30,"Arab Maghreb Union","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"32",32,"Argentina Brazil","base treaty",0,0,0,0,1,0,0,1,-0.370565920730598
+"33",33,"Argentina Brazil","base treaty",0,0,0,0,0,0,0,0,-0.109313833128137
+"34",34,"Argentina Brazil","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"35",35,"Argentina Chile","base treaty",0,1,0,0,0,1,0,2,0.0977138215904595
+"36",36,"Argentina Colombia","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"39",39,"Argentina Cuba","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"40",40,"Argentina Ecuador","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"41",41,"Argentina Ecuador","base treaty",0,1,0,0,0,0,0,1,-0.738650751704848
+"43",43,"Argentina Mexico","base treaty",0,0,0,0,0,0,0,0,-1.00955547679046
+"45",45,"Argentina Paraguay","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"46",46,"Argentina Peru","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"47",47,"Argentina Uruguay","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"48",48,"Argentina Venezuela","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"49",49,"Argentina Venezuela","base treaty",0,1,0,0,0,0,0,1,-1.43010338995022
+"51",51,"Armenia Estonia","base treaty",0,1,0,0,0,0,0,1,-1.0095554767904
+"52",52,"Armenia Georgia","base treaty",1,1,0,0,0,0,0,2,-0.53527495491679
+"53",53,"Armenia Iran","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"54",54,"Armenia Kazakhstan","base treaty",1,1,0,0,0,0,0,2,-0.53527495491679
+"55",55,"Armenia Kyrgyzstan","base treaty",1,1,0,0,0,0,0,2,-0.370565920730577
+"56",56,"Armenia Moldova","base treaty",1,0,0,0,0,0,0,1,-0.53527495491679
+"57",57,"Armenia Russia","base treaty",1,0,0,0,0,0,0,1,-0.370565920730577
+"59",59,"Armenia Turkmenistan","base treaty",1,0,0,0,0,0,0,1,-0.53527495491679
+"60",60,"Armenia Ukraine","base treaty",1,0,0,0,0,0,0,1,-0.53527495491679
+"61",61,"Arusha Agreement II","base treaty",0,1,0,1,0,0,0,2,-0.23106409905747
+"62",62,"Asia Pacific Trade Agreement (Bangkok Agreement amended)","base treaty",0,1,0,0,0,0,0,1,0.188140672867909
+"63",63,"Association of Caribbean States","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"64",64,"Association of Southeast Asian Nations (ASEAN) FTA","base treaty",1,1,0,0,0,0,0,2,-1.00955547679032
+"65",65,"Association of Southeast Asian Nations (ASEAN) Preferential Trading Arrangements (PTA)","base treaty",0,0,0,0,1,0,0,1,-1.00955547679038
+"76a",65,"Association of Southeast Asian Nations Services","consolidated",1,0,0,0,1,0,0,2,-0.37056592073058
+"66",66,"Association of Southeast Asian Nations Australia New Zealand FTA (AANZFTA)","base treaty",1,1,1,1,0,1,1,6,1.8178293780011
+"67",67,"Association of Southeast Asian Nations China","base treaty",1,1,0,0,0,0,0,2,-0.109313833128101
+"68a",67,"Association of Southeast Asian Nations China Services","consolidated",1,1,0,1,0,0,0,3,0.687697327650324
+"69",69,"Association of Southeast Asian Nations Goods","base treaty",1,1,0,0,0,0,0,2,0.350621385945912
+"70",70,"Association of Southeast Asian Nations India","base treaty",1,1,0,0,0,0,0,2,-0.231064099057495
+"71",71,"Association of Southeast Asian Nations Japan","base treaty",1,1,0,0,0,0,0,2,0.0977138215903961
+"72",72,"Association of Southeast Asian Nations Korea","base treaty",1,1,0,0,0,0,0,2,-0.000736131967691003
+"73a",72,"Association of Southeast Asian Nations Korea services","consolidated",1,1,0,1,0,0,0,3,0.747268409002073
+"74",74,"Australia Canada","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"75",75,"Australia Chile","base treaty",1,1,1,1,1,1,1,7,1.94833402660739
+"77",77,"Australia New Zealand (ANZCERTA)","base treaty",1,1,0,0,1,0,0,3,-0.535274955106723
+"78a",77,"Australia New Zealand (ANZCERTA) Protocol on services","consolidated",1,1,0,1,1,0,0,4,0.49490967401689
+"79",79,"Australia New Zealand Free Trade Agreement","base treaty",1,0,0,0,0,0,0,1,-0.370565920730577
+"80",80,"Australia Papua New Guinea","base treaty",1,0,0,0,0,0,0,1,-0.370565920730564
+"81",81,"Australia Papua New Guinea","base treaty",1,0,0,0,0,0,0,1,-0.535274954869369
+"82",82,"Australia Singapore","base treaty",1,1,1,1,1,1,1,7,1.69864976311202
+"83",83,"Australia Thailand","base treaty",1,1,1,1,0,1,0,5,1.42941883671838
+"84",84,"Australia US","base treaty",1,1,1,1,1,1,1,7,2.01936534447256
+"85",85,"Austria EC","base treaty",1,1,0,0,0,0,0,2,-0.370565920730577
+"86",86,"Azerbaijan Georgia","base treaty",1,0,0,0,0,0,0,1,-0.53527495491679
+"92",92,"Azerbaijan Ukraine","base treaty",1,1,0,0,0,0,0,2,-0.53527495491679
+"94",94,"Bahrain Jordan","base treaty",1,0,0,0,0,0,0,1,-0.231064099541268
+"96",96,"Bahrain US","base treaty",1,1,1,1,1,0,1,6,1.88139165642789
+"97",97,"Baltic Free Trade Area (BAFTA) agriculture","base treaty",0,1,0,0,0,0,0,1,-0.738651317663838
+"98",98,"Baltic Free Trade Area (BAFTA) industrial","base treaty",1,1,0,0,0,0,0,2,-0.000736132187408954
+"99",99,"Baltic Free Trade Area (BAFTA) Non Tariff Barriers","base treaty",0,1,0,0,0,0,0,1,-0.231064099541316
+"100",100,"Bangkok Agreement","base treaty",0,1,0,0,0,0,0,1,-1.43010338995022
+"109",109,"Belarus Russia (Union State)","base treaty",1,0,0,0,0,0,0,1,-0.370565920730568
+"112",112,"Belarus Serbia","base treaty",1,1,0,0,0,0,0,2,0.188140672867876
+"114",114,"Belarus Ukraine","base treaty",1,0,0,0,0,0,0,1,-0.738651317663844
+"115",115,"Belize Guatemala","base treaty",0,1,1,0,0,0,0,2,0.80499985625305
+"116",116,"Bhutan India","base treaty",1,0,0,0,0,0,0,1,-1.43010338995022
+"117",117,"Bhutan India","base treaty",1,0,0,0,0,0,0,1,-1.43010338995022
+"119",119,"Bolivia Chile","base treaty",0,1,1,0,0,0,0,2,0.861141856807284
+"121",121,"Bolivia Cuba","base treaty",0,1,1,0,0,0,0,2,0.188140672867912
+"123",123,"Bolivia MERCOSUR","base treaty",1,1,0,0,0,1,0,3,0.494909674016807
+"124",124,"Bolivia Mexico","base treaty",1,1,1,1,1,0,1,6,1.88139165642788
+"125",125,"Bolivia Paraguay","base treaty",0,1,1,0,0,0,0,2,-0.370565920730587
+"126",126,"Bolivia Uruguay","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"128",128,"Bosnia and Herzegovina Bulgaria","base treaty",1,1,0,0,0,0,0,2,0.747268409001953
+"129",129,"Bosnia and Herzegovina Croatia","base treaty",1,1,0,0,0,0,0,2,0.861141856807379
+"130",130,"Bosnia and Herzegovina EC SAA","base treaty",1,1,0,0,1,0,0,3,1.17603126807731
+"131",131,"Bosnia and Herzegovina Macedonia","base treaty",1,1,0,0,0,0,0,2,0.56188780153779
+"132",132,"Bosnia and Herzegovina Moldova","base treaty",1,1,0,0,0,0,0,2,0.424673765914709
+"133",133,"Bosnia and Herzegovina Romania","base treaty",1,1,0,0,0,0,0,2,0.56188780153781
+"134",134,"Bosnia and Herzegovina Serbia Montenegro","base treaty",1,1,0,0,0,0,0,2,0.969540460901235
+"135",135,"Bosnia and Herzegovina Slovenia","base treaty",1,1,0,0,0,0,0,2,0.861141856807379
+"136",136,"Bosnia and Herzegovina Turkey","base treaty",1,1,0,0,0,0,0,2,0.687697327650126
+"138",138,"Brazil Cuba","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"139",139,"Brazil Cuba","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"140",140,"Brazil Guyana","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"141",141,"Brazil Mexico","base treaty",0,1,0,0,0,0,0,1,0.272066152027125
+"142",142,"Brazil Peru","base treaty",0,1,0,0,0,0,0,1,-0.231064099057682
+"143",143,"Brazil Suriname","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"144",144,"Brazil Uruguay","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"146",146,"Brunei Japan","base treaty",1,1,1,1,0,0,0,4,1.22667924641718
+"148",148,"Bulgaria EC","base treaty",1,1,0,1,1,1,0,5,1.27710496640362
+"149",149,"Bulgaria EFTA","base treaty",1,1,0,0,0,0,1,3,0.687697327650728
+"150",150,"Bulgaria Estonia","base treaty",1,1,0,0,0,0,0,2,0.747268409001945
+"151",151,"Bulgaria Finland","base treaty",1,0,0,0,0,0,0,1,-1.00955547679032
+"152",152,"Bulgaria Israel","base treaty",1,1,0,0,0,0,0,2,0.424673765914619
+"153",153,"Bulgaria Latvia","base treaty",1,1,0,0,0,0,0,2,0.494909674016902
+"154",154,"Bulgaria Lithuania","base treaty",1,1,0,0,0,0,0,2,0.424673765914619
+"155",155,"Bulgaria Macedonia","base treaty",1,1,0,0,0,0,0,2,0.561887801537861
+"156",156,"Bulgaria Moldova","base treaty",1,1,0,0,0,0,0,2,0.687697327650704
+"157",157,"Bulgaria Serbia","base treaty",1,1,0,0,0,0,0,2,0.804999856253015
+"158",158,"Bulgaria Slovakia","base treaty",1,1,0,0,0,0,0,2,0.172153350741433
+"159",159,"Bulgaria Slovenia","base treaty",1,1,0,0,0,0,0,2,0.259302940737674
+"160",160,"Bulgaria Turkey","base treaty",1,1,0,0,0,0,0,2,0.561887801537802
+"161",161,"Canada Chile","base treaty",1,1,1,1,0,1,0,5,1.42941883671844
+"162",162,"Canada Colombia","base treaty",1,1,1,1,1,1,0,6,1.6986497631121
+"163",163,"Canada Costa Rica","base treaty",1,1,1,0,0,1,0,4,1.07406608904114
+"164",164,"Canada EFTA","base treaty",1,1,0,0,0,1,0,3,0.626004496767261
+"165",165,"Canada Israel","base treaty",1,1,0,0,0,1,0,3,0.350621385945942
+"166",166,"Canada Jordan","base treaty",1,0,1,0,0,0,0,2,0.687697179899296
+"167",167,"Canada New Zealand","base treaty",0,0,0,0,0,0,0,0,0.0977138215904619
+"168",168,"Canada Peru","base treaty",1,1,1,1,1,1,0,6,1.64216321171879
+"169",169,"Canada US","base treaty",1,0,1,1,0,0,0,3,0.687697179899264
+"170",170,"Canada US Automotive Products Trade Agreement (APTA)","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"171",171,"Caribbean Community (CARICOM)","base treaty",1,0,0,0,0,0,0,1,-0.000736131997322954
+"176a",171,"Caribbean Community (CARICOM) Protocol on Services","consolidated",1,0,0,1,0,0,0,2,0.188140672867878
+"172",172,"Caribbean Community (CARICOM) Colombia","base treaty",0,1,0,0,0,0,0,1,0.0977138215904264
+"173",173,"Caribbean Community (CARICOM) Costa Rica","base treaty",0,1,1,0,0,1,0,3,1.12532533019221
+"174",174,"Caribbean Community (CARICOM) Cuba","base treaty",0,1,0,0,0,0,0,1,0.272066152027146
+"175",175,"Caribbean Community (CARICOM) Dominican Republic","base treaty",0,1,0,0,0,0,0,1,0.0977138215904595
+"177",177,"Caribbean Community (CARICOM) revised","base treaty",1,1,0,1,0,0,0,3,0.626004496540324
+"178",178,"Caribbean Community (CARICOM) Venezuela","base treaty",0,1,0,0,0,0,0,1,-0.000736132287944866
+"179",179,"Caribbean Free Trade Association (CARIFTA)","base treaty",1,0,0,0,0,0,0,1,-0.109313833128162
+"180",180,"Caribbean Free Trade Association (CARIFTA)","base treaty",1,0,0,0,0,0,0,1,-0.231064098960801
+"181",181,"CARIFORUM EC EPA","base treaty",1,1,1,1,1,1,1,7,1.75707348919211
+"182",182,"Central African Customs and Economic Union (UDEAC)","base treaty",1,0,0,0,0,0,0,1,-0.738650751673803
+"183",183,"Central America Chile","base treaty",0,1,1,1,1,1,0,5,1.64216320790066
+"184",184,"Central America Dominican Republic","base treaty",1,1,1,1,1,1,0,6,1.58727301083762
+"185",185,"Central America Panama","base treaty",1,1,0,1,1,1,0,5,1.07406608904119
+"186",186,"Central American Common Market (CACM)","base treaty",1,0,0,0,0,0,0,1,-0.231064098937664
+"714a",186,"Central American Common Market (CACM) Protocol of Guatemala","consolidated",1,0,0,0,0,0,0,1,-0.000736131997322954
+"187",187,"Central American Free Trade Agreement (CAFTA)","base treaty",1,1,1,1,1,0,1,6,1.94833402660702
+"188",188,"Central American Free Trade Agreement (CAFTA) Dominican Republic","base treaty",1,1,1,1,1,0,1,6,2.01936534447247
+"189",189,"Central American Free Trade Area (CAFTA)","base treaty",1,0,0,0,0,0,0,1,-0.370565920730603
+"190",190,"Central American Integration System","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"192",192,"Central European Free Trade Agreement (CEFTA)","base treaty",1,1,0,0,0,0,0,2,-0.000736131967672415
+"193a",192,"Central European Free Trade Agreement (CEFTA)","consolidated",1,1,0,0,0,0,0,2,-0.000736131967672415
+"199",199,"Chile China","base treaty",1,1,0,0,0,0,1,3,0.27206615202714
+"200",200,"Chile Colombia","base treaty",0,1,1,0,0,0,0,2,0.626004496540343
+"201",201,"Chile Colombia","base treaty",1,1,1,1,1,0,0,5,1.42941883671836
+"202",202,"Chile EC","base treaty",1,1,1,1,1,1,0,6,1.69864976318877
+"203",203,"Chile Ecuador","base treaty",0,1,0,0,0,0,0,1,0.494909674016932
+"204",204,"Chile Ecuador","base treaty",0,1,0,0,0,0,0,1,0.272066152027151
+"205",205,"Chile EFTA","base treaty",1,1,1,1,1,1,0,6,1.53368650558766
+"206",206,"Chile India","base treaty",0,1,0,0,0,0,0,1,0.0977138215904152
+"207",207,"Chile Japan","base treaty",1,1,1,1,1,1,1,7,1.5872730108376
+"208",208,"Chile Korea","base treaty",1,1,1,1,1,1,1,7,1.88139165642785
+"209",209,"Chile MERCOSUR","base treaty",1,1,1,0,0,1,0,4,0.969540460901158
+"210a",209,"Chile MERCOSUR Protocol on Services","consolidated",1,1,1,1,0,1,0,5,1.125325330192
+"211",211,"Chile Mexico","base treaty",0,1,0,0,0,0,0,1,0.188140672867912
+"212",212,"Chile Mexico","base treaty",1,1,1,1,0,1,1,6,1.69864976311198
+"213",213,"Chile Panama","base treaty",1,1,1,1,0,0,0,4,1.26215977169921
+"215",215,"Chile Peru","base treaty",1,1,0,0,0,0,0,2,0.272066152027161
+"216",216,"Chile Turkey","base treaty",1,1,0,0,0,0,0,2,0.424673765914729
+"217",217,"Chile Uruguay","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"218",218,"Chile US","base treaty",1,1,1,1,1,0,1,6,1.81782937800106
+"219",219,"Chile Venezuela","base treaty",0,1,0,0,0,0,0,1,-0.000736131967619947
+"220",220,"China Hong Kong","base treaty",1,0,0,1,0,0,0,2,-0.10931383312818
+"221",221,"China Macao","base treaty",1,0,0,1,0,0,0,2,-0.109313833128137
+"222",222,"China New Zealand","base treaty",1,1,1,1,0,0,0,4,1.22667925291776
+"224",224,"China Pakistan","base treaty",1,1,1,0,0,0,0,3,0.804999856253017
+"225a",224,"China Pakistan Services","consolidated",1,1,1,1,0,0,0,4,1.22667925291781
+"227",227,"China Peru","base treaty",1,1,1,1,0,0,1,5,1.48114533302936
+"228",228,"China Singapore","base treaty",1,1,1,1,0,0,0,4,1.22667925291781
+"230",230,"Colombia Costa Rica","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"233",233,"Colombia Cuba","base treaty",0,1,1,0,0,0,0,2,0.097713821590424
+"234",234,"Colombia EFTA","base treaty",1,1,1,1,1,1,1,7,2.09538158739724
+"235",235,"Colombia El Salvador","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"236",236,"Colombia Guatemala","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"237",237,"Colombia Honduras","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"238",238,"Colombia Nicaragua","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"239",239,"Colombia Northern Triangle","base treaty",0,1,1,1,1,0,0,4,1.53368650558764
+"240",240,"Colombia Panama","base treaty",0,1,0,0,0,0,0,1,-0.370565920730524
+"241",241,"Colombia US","base treaty",1,1,1,1,1,1,1,7,2.17754370770345
+"242",242,"Common Economic Zone","base treaty",1,1,0,0,0,0,0,2,-0.370565920730565
+"243",243,"Common Market for Eastern and Southern Africa (COMESA)","base treaty",1,1,1,0,0,0,0,3,0.561887801537773
+"244",244,"Commonwealth of Independent States (CIS)","base treaty",1,1,0,0,0,0,0,2,-0.231064099057545
+"247",247,"Costa Rica Mexico","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"248",248,"Costa Rica Mexico","base treaty",1,1,1,1,1,0,1,6,1.88139165642785
+"249",249,"Costa Rica Nicaragua Panama","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"250a",249,"Costa Rica Panama","consolidated",0,0,0,0,0,0,0,0,-0.738651317663838
+"251",251,"Costa Rica Venezuela","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"252",252,"Cote d'Ivoire EC EPA","base treaty",1,1,0,0,0,0,0,2,0.424673765914638
+"253",253,"Cotonou Agreement","base treaty",0,1,0,0,0,0,0,1,0.861141856807233
+"254",254,"Croatia EC","base treaty",0,1,0,1,1,0,0,3,1.07406608904119
+"255",255,"Croatia EFTA","base treaty",1,1,1,0,0,0,0,3,0.861141856807225
+"257",257,"Croatia Lithuania","base treaty",1,1,0,0,0,0,0,2,0.561887801537833
+"258",258,"Croatia Macedonia","base treaty",1,1,0,0,0,0,0,2,0.494909674016813
+"259",259,"Croatia Macedonia (amended)","base treaty",1,1,0,0,0,0,0,2,0.494909674016813
+"260",260,"Croatia Moldova","base treaty",1,1,0,0,0,0,0,2,0.5618878015378
+"261",261,"Croatia Serbia Montenegro","base treaty",1,1,0,0,0,0,0,2,0.350621385945992
+"262",262,"Croatia Slovenia","base treaty",1,1,0,0,0,0,0,2,0.861141856807316
+"263",263,"Croatia Turkey","base treaty",1,1,0,0,1,0,0,3,0.687697327650704
+"265",265,"Cuba Ecuador","base treaty",0,1,0,0,0,0,0,1,0.424673765914638
+"266",266,"Cuba Guatemala","base treaty",0,1,0,0,0,0,0,1,-0.000736132287944866
+"267",267,"Cuba MERCOSUR","base treaty",0,1,0,0,0,0,0,1,-0.109313833128222
+"268",268,"Cuba Mexico","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"269a",268,"Cuba Mexico","consolidated",0,0,0,0,0,0,0,0,-1.43010338995022
+"270",270,"Cuba Paraguay","base treaty",0,1,0,0,0,0,0,1,-0.000736132187461422
+"273",273,"Cuba Peru","base treaty",0,1,0,0,0,0,0,1,0.0977138215903985
+"275",275,"Cuba Uruguay","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"277",277,"Cuba Venezuela","base treaty",0,1,1,0,0,0,0,2,0.350621385946002
+"278",278,"Cyprus EC","base treaty",1,1,0,0,0,0,0,2,-0.370565920730577
+"279",279,"Czech and Slovak Republic EFTA","base treaty",1,1,0,0,0,0,0,2,0.350621385945894
+"280",280,"Czech Republic EC","base treaty",1,1,0,1,0,1,0,4,0.91591988361768
+"282",282,"Czech Republic Estonia","base treaty",1,1,0,0,0,0,0,2,0.5618878015378
+"283",283,"Czech Republic Israel","base treaty",1,1,0,0,0,0,0,2,0.350621385945998
+"284",284,"Czech Republic Latvia","base treaty",1,1,0,0,0,0,0,2,0.5618878015378
+"285",285,"Czech Republic Lithuania","base treaty",1,1,0,0,0,0,0,2,0.188140672867896
+"287",287,"Czech Republic Slovakia","base treaty",1,1,0,1,1,1,0,5,0.687697327650332
+"288",288,"Czech Republic Slovenia","base treaty",1,1,0,0,0,0,0,2,0.188140672867995
+"289",289,"Czech Republic Turkey","base treaty",1,1,0,0,0,0,0,2,0.350621385945998
+"290",290,"Czechoslovakia Finland","base treaty",1,0,0,0,0,0,0,1,-1.43010338995022
+"291",291,"D8 PTA","base treaty",0,1,0,0,0,0,0,1,-0.535274956056437
+"292",292,"Dominican Republic Panama","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"293",293,"EC","base treaty",1,1,0,0,0,1,0,3,0.272066152027166
+"343a",293,"EC Single European Act","consolidated",1,1,1,0,0,1,0,4,0.915919883617648
+"300",300,"EC Amsterdam","base treaty",1,0,1,1,0,1,0,4,1.02219553016106
+"302",302,"EC Egypt","base treaty",0,1,0,0,0,0,0,1,-0.370565920730577
+"303",303,"EC Egypt Agreement","base treaty",0,0,0,0,0,0,0,0,-0.370565920730577
+"304",304,"EC Egypt Euro-Med Association Agreement","base treaty",1,1,0,1,0,1,0,4,0.861141856807312
+"305",305,"EC Estonia","base treaty",1,1,0,0,0,1,0,3,0.188140672867917
+"306",306,"EC Estonia Europe Agreement","base treaty",1,1,0,1,0,1,0,4,1.12532533019192
+"307",307,"EC Faroe Islands","base treaty",1,1,0,0,0,0,0,2,-0.370565920730577
+"308",308,"EC Faroe Islands","base treaty",1,1,0,0,0,0,0,2,-0.370565920730577
+"309",309,"EC Finland","base treaty",1,0,0,0,0,0,0,1,-0.370565920730577
+"310a",311,"EC Greece Additional Protocol","consolidated",1,1,0,0,0,1,0,3,0.188140672867914
+"311",311,"EC Greece Association Agreement","base treaty",1,0,0,0,0,1,0,2,-0.000736131923654053
+"312",312,"EC Hungary","base treaty",1,1,0,1,1,1,0,5,0.969540460901189
+"313",313,"EC Iceland","base treaty",1,1,0,0,0,0,0,2,-0.370565920730577
+"314",314,"EC Israel","base treaty",0,0,0,0,0,0,0,0,-0.231064099541211
+"315",315,"EC Israel","base treaty",1,0,0,0,0,0,0,1,-0.370565920730579
+"316",316,"EC Israel Euro-Med Association Agreement","base treaty",1,1,0,1,1,1,0,5,0.915919883617652
+"317",317,"EC Jordan","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"318",318,"EC Jordan Euro-Med Association Agreement","base treaty",1,1,0,0,0,1,0,3,0.687697327650704
+"319",319,"EC Latvia","base treaty",1,1,0,0,0,1,0,3,0.097713821590402
+"320",320,"EC Latvia Europe Agreement","base treaty",1,1,0,1,1,1,0,5,0.969540460901064
+"321",321,"EC Lebanon","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"322",322,"EC Lebanon","base treaty",0,0,0,0,0,0,0,0,-0.370565920730577
+"323",323,"EC Lebanon Euro-Med Association Agreement","base treaty",1,1,0,0,0,1,0,3,0.494909674016932
+"324",324,"EC Lisbon","base treaty",1,0,1,1,0,1,0,4,1.07406608904116
+"325",325,"EC Lithuania","base treaty",1,1,0,0,0,1,0,3,0.188140672867917
+"326",326,"EC Lithuania Europe Agreement","base treaty",1,1,0,1,1,1,0,5,1.17603126807745
+"327",327,"EC Maastricht","base treaty",1,0,1,1,0,1,0,4,1.02219553016108
+"328",328,"EC Macedonia SAA","base treaty",1,1,0,1,1,0,1,5,1.07406608904118
+"329",329,"EC Malta","base treaty",1,0,0,0,0,0,0,1,-0.231064099541467
+"330",330,"EC Mexico","base treaty",1,1,0,0,1,0,0,3,0.861141856807225
+"331",331,"EC Montenegro SAA","base treaty",1,1,0,1,1,0,0,4,1.17603126807736
+"332",332,"EC Morocco","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"333",333,"EC Morocco Association Agreement","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"334",334,"EC Morocco Euro-Med Association Agreement","base treaty",1,1,0,1,0,1,0,4,0.861141856807341
+"335",335,"EC Nice","base treaty",1,0,1,1,0,1,0,4,1.07406608904116
+"336",336,"EC Norway","base treaty",1,1,0,0,0,0,0,2,-0.370565920730577
+"337",337,"EC Poland","base treaty",1,1,0,1,1,1,0,5,1.07406608904121
+"338",338,"EC Portugal","base treaty",1,0,0,0,0,0,0,1,-0.370565920730577
+"339a",338,"EC Portugal Additional Protocol","consolidated",1,0,0,0,0,0,0,1,-0.370565920730577
+"340",340,"EC Romania","base treaty",1,1,0,1,1,1,0,5,1.12532533019212
+"341",341,"EC San Marino","base treaty",1,0,0,0,0,0,0,1,-0.109313833128137
+"342",342,"EC Serbia SAA","base treaty",1,1,0,1,1,1,0,5,1.22667924479194
+"344",344,"EC Slovakia","base treaty",1,1,0,1,1,1,0,5,1.12532533019212
+"345",345,"EC Slovenia","base treaty",0,0,0,0,0,0,0,0,-1.00955547679033
+"346",346,"EC Slovenia Europe Agreement","base treaty",1,1,0,1,0,1,0,4,0.804999856253035
+"347",347,"EC South Africa","base treaty",1,1,0,1,0,1,0,4,1.1760312680773
+"348",348,"EC Spain","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"349",349,"EC Sweden","base treaty",1,0,0,0,0,0,0,1,-0.370565920730577
+"350",350,"EC Switzerland Liechtenstein","base treaty",1,1,0,0,0,0,0,2,-0.370565920730577
+"351",351,"EC Syria","base treaty",0,0,0,0,0,0,0,0,-0.370565920730577
+"352",352,"EC Tunisia","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"353",353,"EC Tunisia Association Agreement","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"354",354,"EC Tunisia Euro-Med Association Agreement","base treaty",1,1,0,1,0,1,0,4,0.747268409001914
+"358a",356,"EC Turkey Supplementary Protocol","consolidated",1,0,0,0,0,1,0,2,0.0977138215904128
+"356a",357,"EC Turkey Additional Protocol","consolidated",1,0,0,0,0,1,0,2,-0.000736131923654053
+"357",357,"EC Turkey Association Agreement (Ankara Agreement)","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"355",358,"EC Turkey","protocol or amendment",1,1,0,0,0,0,1,3,0.097713821590473
+"359",359,"EC Yugoslavia","base treaty",1,0,0,0,0,0,0,1,-1.43010338995022
+"360",360,"Economic and Monetary Community of Central Africa (CEMAC)","base treaty",1,1,0,0,0,0,0,2,-0.535274954869369
+"361",361,"Economic and Monetary Community of Central Africa (CEMAC) revised","base treaty",1,0,0,0,0,0,0,1,-1.43010338995022
+"363",363,"Economic Community of Central African States (ECCAS-CEEAC)","base treaty",1,0,0,0,0,0,0,1,-1.08832702460006
+"366",366,"Economic Community Of West African States (ECOWAS)","base treaty",1,0,0,0,0,0,0,1,-1.43010338995022
+"367",367,"Economic Community Of West African States (ECOWAS)","base treaty",1,1,0,0,0,0,0,2,-1.00955547679029
+"370",370,"Economic Cooperation Organization (ECO) Preferences","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"371",371,"Economic Cooperation Organization Trade Agreement (ECOTA)","base treaty",0,0,0,0,0,0,0,0,0.097713821590424
+"372",372,"Ecuador Mexico","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"373",373,"Ecuador Paraguay","base treaty",0,0,0,0,0,0,0,0,-1.00955547679044
+"374",374,"Ecuador Uruguay","base treaty",0,1,0,0,0,0,0,1,-0.535274955106791
+"375",375,"EFTA","base treaty",1,1,0,0,0,0,0,2,-0.000736132574800138
+"395a",375,"EFTA services","consolidated",1,1,1,1,0,0,1,5,1.53368650558771
+"376",376,"EFTA Egypt","base treaty",1,1,0,1,0,1,0,4,0.804999856253015
+"377",377,"EFTA Estonia","base treaty",1,1,0,0,0,0,1,3,0.915919883617729
+"379",379,"EFTA GCC","base treaty",1,1,0,1,1,1,0,5,1.12532533019222
+"380",380,"EFTA Hungary","base treaty",1,1,0,0,0,0,0,2,0.0977138215904003
+"382",382,"EFTA Israel","base treaty",1,1,0,1,0,0,0,3,0.687697327649914
+"383",383,"EFTA Jordan","base treaty",1,1,0,0,0,0,0,2,0.561887801537861
+"384",384,"EFTA Korea","base treaty",1,1,1,1,0,1,0,5,1.58727301083767
+"385",385,"EFTA Latvia","base treaty",1,1,0,0,0,0,1,3,0.861141856807312
+"386",386,"EFTA Lebanon","base treaty",1,1,0,0,0,0,0,2,0.626004496729449
+"388",388,"EFTA Lithuania","base treaty",1,1,0,0,0,0,0,2,0.561887801537834
+"389",389,"EFTA Macedonia","base treaty",1,1,0,0,0,0,0,2,0.561887801537861
+"390",390,"EFTA Mexico","base treaty",1,1,1,1,1,1,1,7,1.81782937800099
+"391",391,"EFTA Morocco","base treaty",1,1,0,0,0,0,0,2,0.747268409001836
+"392",392,"EFTA Poland","base treaty",1,1,0,0,0,0,0,2,0.626004496540248
+"393",393,"EFTA Romania","base treaty",1,1,0,0,0,0,0,2,0.424673765914648
+"394",394,"EFTA Serbia","base treaty",1,1,0,0,1,0,0,3,0.804999856253035
+"396",396,"EFTA Singapore","base treaty",1,1,1,1,0,1,0,5,1.48114533302932
+"398",398,"EFTA Slovenia","base treaty",1,1,0,0,0,0,1,3,0.687697327650704
+"399",399,"EFTA Southern African Customs Union (SACU)","base treaty",1,1,0,0,0,0,0,2,0.68769732765069
+"400",400,"EFTA Spain","base treaty",1,1,0,0,0,0,0,2,-1.43010338995022
+"401",401,"EFTA Tunisia","base treaty",1,1,0,0,0,0,0,2,0.561887801537803
+"402",402,"EFTA Turkey","base treaty",1,1,0,0,0,0,0,2,0.350621385945998
+"404",404,"Egypt Jordan","base treaty",1,0,0,0,0,0,0,1,-0.370565920730565
+"405",405,"Egypt Jordan","base treaty",1,0,0,0,0,0,0,1,-1.00955547679033
+"406",406,"Egypt Jordan","base treaty",0,0,0,0,0,0,0,0,-0.535274955106759
+"410",410,"Egypt Morocco","base treaty",0,1,0,0,0,0,0,1,-0.535274955106794
+"412",412,"Egypt PLO","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"413",413,"Egypt Syria","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"415",415,"Egypt Turkey","base treaty",1,1,0,0,0,1,0,3,0.62600449654031
+"416",416,"El Salvador Honduras Taiwan","base treaty",1,1,1,1,0,0,0,4,1.37829711468829
+"417",417,"El Salvador Mexico","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"418",418,"El Salvador Nicaragua Free Trade Area","base treaty",1,0,0,0,0,0,0,1,-1.43010338995022
+"419",419,"El Salvador Panama","base treaty",0,0,0,0,0,1,0,1,-0.109313833128197
+"421",421,"El Salvador Venezuela","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"422",422,"Equatorial Customs Union","base treaty",1,0,0,0,0,0,0,1,-1.43010338995022
+"423",423,"Equatorial Customs Union Cameroon Association","base treaty",1,0,0,0,0,0,0,1,-1.43010338995022
+"424",424,"Estonia Faroe Islands","base treaty",1,1,0,0,0,0,0,2,0.350621385946002
+"425",425,"Estonia Finland","base treaty",1,0,0,0,0,0,0,1,-0.535274955106806
+"426",426,"Estonia Hungary","base treaty",1,1,0,0,0,0,0,2,0.350621385945998
+"427",427,"Estonia Norway","base treaty",1,1,0,0,0,0,0,2,-0.370565920730561
+"428",428,"Estonia Slovakia","base treaty",1,1,0,0,0,0,0,2,0.272066152027161
+"429",429,"Estonia Slovenia","base treaty",1,1,0,0,0,0,0,2,0.687697327650704
+"430",430,"Estonia Sweden","base treaty",1,0,0,0,0,0,0,1,-1.43010338995022
+"431",431,"Estonia Switzerland","base treaty",1,1,0,1,0,0,0,3,0.424673765914691
+"432",432,"Estonia Turkey","base treaty",1,1,0,0,0,0,0,2,0.424673765914621
+"433",433,"Estonia Ukraine","base treaty",1,0,0,0,0,0,0,1,-0.109313833128197
+"434",434,"Eurasian Economic Community (EAEC)","base treaty",1,0,0,0,0,0,0,1,-1.00955547679044
+"436",436,"European Coal and Steel Community","base treaty",0,0,0,0,0,0,0,0,-0.231064098960801
+"437",437,"European Economic Area (EEA)","base treaty",1,1,1,1,0,1,0,5,0.969540460901146
+"438",438,"Faroe Islands Iceland","base treaty",1,1,0,0,1,0,0,3,0.0977138215904459
+"439",439,"Faroe Islands Iceland","base treaty",1,1,0,1,0,0,0,3,0.494909674016884
+"440",440,"Faroe Islands Norway","base treaty",1,1,0,0,0,0,0,2,-0.000736131923725107
+"441",441,"Faroe Islands Poland","base treaty",1,1,0,0,0,0,0,2,0.350621385946002
+"443",443,"Faroe Islands Switzerland","base treaty",1,0,0,0,0,0,0,1,-0.535274954869369
+"445",445,"EFTA Finland","base treaty",1,0,0,0,0,0,0,1,-1.43010338995022
+"446",446,"Finland German Democratic Republic","base treaty",1,0,0,0,0,0,0,1,-1.43010338995022
+"447",447,"Finland Hungary","base treaty",1,0,0,0,0,0,0,1,-1.43010338995022
+"448",448,"Finland Latvia","base treaty",1,0,0,0,0,0,0,1,-0.738651317663838
+"449",449,"Finland Lithuania","base treaty",1,0,0,0,0,0,0,1,-0.535274955106806
+"450",450,"Finland Poland","base treaty",1,0,0,0,0,0,0,1,-1.43010338995022
+"452",452,"France Monaco","base treaty",1,0,0,0,0,0,0,1,-1.43010338995022
+"453",453,"France Tunisia Customs Union Convention","base treaty",1,0,0,0,0,0,0,1,-0.738651317663837
+"454",454,"Georgia Kazakhstan","base treaty",1,0,0,0,0,0,0,1,-0.738651317663844
+"455",455,"Georgia Russia","base treaty",1,0,0,0,0,0,0,1,-0.370565920730577
+"456",456,"Georgia Turkey","base treaty",1,1,0,0,0,1,0,3,0.62600449654031
+"457",457,"Georgia Turkmenistan","base treaty",1,0,0,0,0,0,0,1,-0.53527495491679
+"458",458,"Georgia Ukraine","base treaty",1,0,0,0,0,0,0,1,-0.53527495491679
+"460",460,"Ghana Upper Volta Trade Agreement","base treaty",1,0,0,0,0,0,0,1,-1.43010338995022
+"461",461,"Global System of Trade Preferences (GSTP)","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"462",462,"Greater Arab Free Trade Agreement","base treaty",1,0,0,0,0,0,0,1,-1.43010338995022
+"464",464,"Group of Three","base treaty",1,1,0,0,0,0,0,2,-0.370565920730621
+"465a",464,"Group of Three Auto Agreement","consolidated",0,1,0,0,0,0,0,1,-0.370565920730621
+"466",466,"GUAM/GUUAM Organization for Democracy and Economic Development","base treaty",1,1,0,0,0,0,0,2,0.27206615202713
+"467",467,"Guatemala Mexico","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"468",468,"Guatemala Mexico","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"469",469,"Guatemala Panama","base treaty",0,0,0,0,0,1,0,1,-0.535274954916945
+"470",470,"Guatemala Taiwan","base treaty",1,1,1,1,0,0,1,5,1.27710496640363
+"471",471,"Guatemala Venezuela","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"473",473,"Gulf Cooperation Council (GCC)","base treaty",1,0,0,0,0,0,0,1,-1.43010338995022
+"474",474,"Gulf Cooperation Council (GCC)","base treaty",1,0,0,0,0,0,0,1,-1.43010338995022
+"475",475,"Gulf Cooperation Council (GCC) Singapore","base treaty",1,1,1,1,1,0,0,5,0.861141856807225
+"476",476,"Guyana Venezuela","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"477",477,"Honduras Mexico","base treaty",0,0,0,0,0,0,0,0,-0.231064098960801
+"478",478,"Honduras Panama","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"480",480,"Honduras Venezuela","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"481",481,"Hungary Israel","base treaty",1,1,0,0,1,0,0,3,0.424673765914691
+"482",482,"Hungary Latvia","base treaty",1,1,0,0,0,0,0,2,0.188140672867914
+"483",483,"Hungary Lithuania","base treaty",1,1,0,0,0,0,0,2,0.27206615202715
+"487",487,"Hungary Slovenia","base treaty",1,1,0,0,0,0,0,2,0.097713821590424
+"488",488,"Hungary Turkey","base treaty",1,1,0,0,0,0,0,2,0.0977138215903773
+"489",489,"India Korea","base treaty",1,1,1,1,0,1,0,5,1.27710497835333
+"490",490,"India MERCOSUR","base treaty",0,1,0,0,0,0,0,1,0.188140672867909
+"491",491,"India Nepal","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"492",492,"India Nepal","base treaty",0,1,0,0,0,0,0,1,-1.00955547679032
+"493",493,"India Singapore","base treaty",1,1,1,1,0,0,0,4,1.17603126807731
+"494",494,"India Sri Lanka","base treaty",1,0,0,0,0,0,0,1,-0.231064098960801
+"495",495,"Indonesia Japan","base treaty",1,0,1,1,0,1,1,5,1.42941883671828
+"496",496,"Inter-Arab Trade Agreement","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"497",497,"Iran Pakistan","base treaty",0,1,0,0,0,0,0,1,-0.738650751673797
+"498",498,"Iran Syria","base treaty",0,1,0,0,0,0,0,1,-0.738650751673789
+"500",500,"Iraq Jordan","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"504",504,"Iraq UAE","base treaty",1,0,0,0,0,0,0,1,-1.43010338995022
+"505",505,"Ireland UK Free Trade Area","base treaty",1,0,0,0,0,0,0,1,-0.370565920730579
+"506",506,"Israel Jordan","base treaty",0,0,0,0,0,0,0,0,-0.738651317663807
+"508",508,"Israel MERCOSUR","base treaty",1,1,0,0,0,0,0,2,0.494909674016849
+"509",509,"Israel Mexico","base treaty",1,1,0,0,1,1,0,4,0.626004496540287
+"510",510,"Israel PLO","base treaty",1,1,0,0,0,0,0,2,-0.000736132574818096
+"511",511,"Israel Poland","base treaty",1,1,0,0,0,0,0,2,0.424673765914618
+"512",512,"Israel Romania","base treaty",1,1,0,0,0,0,0,2,0.494909674016902
+"513",513,"Israel Slovakia","base treaty",1,1,0,0,0,0,0,2,0.424673765914691
+"514",514,"Israel Slovenia","base treaty",1,1,0,0,0,0,0,2,0.272066152027176
+"515",515,"Israel Turkey","base treaty",1,1,0,1,0,0,0,3,0.626004496540327
+"516",516,"Israel US","base treaty",1,1,0,1,1,0,0,4,0.188140672867928
+"517",517,"Japan Malaysia","base treaty",1,1,1,1,0,1,1,6,1.58727301083763
+"518",518,"Japan Mexico","base treaty",1,1,1,1,1,1,0,6,1.58727301083767
+"519",519,"Japan Philippines","base treaty",1,1,1,1,0,1,1,6,1.42941883671841
+"520",520,"Japan Singapore","base treaty",1,1,1,1,1,1,0,6,1.22667925291784
+"521",521,"Japan Switzerland","base treaty",1,1,1,1,0,1,1,6,2.17754370770329
+"522",522,"Japan Thailand","base treaty",1,1,1,1,0,1,1,6,1.58727301083767
+"523",523,"Japan Vietnam","base treaty",1,1,1,1,0,1,1,6,1.64216320790065
+"524",524,"Jordan Kuwait","base treaty",1,1,0,1,0,0,0,3,0.232410516075013
+"525",525,"Jordan Kuwait","base treaty",1,0,0,0,0,0,0,1,-1.43010338995022
+"526",526,"Jordan Lebanon","base treaty",1,0,0,0,0,0,0,1,-1.43010338995022
+"527",527,"Jordan Lebanon","base treaty",1,0,0,0,0,0,0,1,-1.43010338995022
+"528",528,"Jordan Libya","base treaty",1,0,0,0,0,0,0,1,-1.43010338995022
+"529",529,"Jordan Morocco","base treaty",0,0,0,0,0,0,0,0,-0.738651317663838
+"530",530,"Jordan Morocco","base treaty",1,1,0,0,0,0,0,2,-0.109313833128162
+"531",531,"Jordan PLO","base treaty",1,0,0,0,0,0,0,1,-1.00955547679044
+"532",532,"Jordan Qatar","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"533",533,"Jordan Saudi Arabia","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"534",534,"Jordan Singapore","base treaty",1,1,1,1,0,0,0,4,1.07406608904117
+"535",535,"Jordan Sudan","base treaty",1,1,0,1,0,0,0,3,-0.160662377618223
+"536",536,"Jordan Sudan","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"756a",536,"Jordan Sudan amended","consolidated",0,0,0,0,0,0,0,0,-1.43010338995022
+"537",537,"Jordan Syria","base treaty",1,1,0,0,0,0,0,2,-0.000736131923725107
+"538",538,"Jordan Syria","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"539",539,"Jordan Syria","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"540",540,"Jordan Tunisia","base treaty",1,0,0,0,0,0,0,1,-0.231064099541268
+"541",541,"Jordan Turkey","base treaty",1,1,0,0,0,1,0,3,0.62600449654031
+"542",542,"Jordan UAE","base treaty",1,0,0,0,0,0,0,1,-0.231064099057615
+"543",543,"Jordan US","base treaty",1,0,1,1,0,0,1,4,1.22667925291785
+"544",544,"Kazakhstan Kyrgyzstan","base treaty",1,0,0,0,0,0,0,1,-0.53527495491679
+"548",548,"Kazakhstan Ukraine","base treaty",1,0,0,0,0,0,0,1,-0.53527495491679
+"550",550,"Korea Singapore","base treaty",1,1,1,1,1,1,1,7,1.75707348919214
+"551",551,"Korea US","base treaty",1,1,1,1,1,1,1,7,2.1775437077035
+"554",554,"Kuwait UAE","base treaty",0,0,0,0,0,0,0,0,-0.738650751698668
+"555",555,"Kyrgyzstan Moldova","base treaty",1,0,0,0,0,0,0,1,-0.738651317663844
+"556",556,"Kyrgyzstan Russia","base treaty",1,0,0,0,0,0,0,1,-0.10931383312818
+"558",558,"Kyrgyzstan Ukraine","base treaty",1,0,0,0,0,0,0,1,-0.535274955106764
+"559",559,"Kyrgyzstan Uzbekistan","base treaty",1,0,0,0,0,0,0,1,-0.535274955106764
+"560",560,"Laos Thailand","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"561",561,"Latin American Free Trade Area (LAFTA)","base treaty",0,0,0,0,0,0,0,0,-1.00955547679032
+"562",562,"Latin American Integration Association (ALADI LAIA)","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"564",564,"Latvia Norway","base treaty",1,1,0,0,0,0,0,2,-0.231064099057707
+"565",565,"Latvia Poland","base treaty",1,1,0,0,0,0,0,2,0.861141856807318
+"566",566,"Latvia Slovakia","base treaty",1,1,0,0,0,0,0,2,0.350621385945947
+"567",567,"Latvia Slovenia","base treaty",1,1,0,0,0,0,0,2,0.424673765914638
+"568",568,"Latvia Sweden","base treaty",1,1,0,0,0,0,0,2,-0.370565920730597
+"569",569,"Latvia Switzerland","base treaty",1,1,0,1,0,0,0,3,0.350621385945947
+"570",570,"Latvia Turkey","base treaty",1,1,0,0,0,0,0,2,0.0977138215903985
+"785",571,"Latvia Ukraine Agriculture","protocol or amendment",0,1,0,0,0,0,0,1,-1.43010338995022
+"574",574,"Libya Morocco","base treaty",1,0,0,0,0,0,0,1,-1.08832702460006
+"576",576,"Lithuania Norway","base treaty",1,1,0,0,0,0,0,2,-0.231064099057707
+"577",577,"Lithuania Poland","base treaty",1,1,0,0,0,0,0,2,0.561887801537861
+"578",578,"Lithuania Slovakia","base treaty",1,1,0,0,0,0,0,2,0.350621385945947
+"579",579,"Lithuania Slovenia","base treaty",1,1,0,0,0,0,0,2,0.747268409002065
+"580",580,"Lithuania Sweden","base treaty",1,0,0,0,0,0,0,1,-1.00955547679044
+"581",581,"Lithuania Switzerland","base treaty",1,1,0,1,0,0,0,3,0.350621385945947
+"582",582,"Lithuania Turkey","base treaty",1,1,0,0,0,0,0,2,0.424673765914547
+"584",584,"Lomé I","base treaty",0,0,0,1,0,0,0,1,-0.370565920730559
+"585",585,"Lomé II","base treaty",0,0,0,1,0,0,0,1,-0.370565920730559
+"586",586,"Lomé III","base treaty",0,0,1,1,0,1,0,3,0.424673765914658
+"587",587,"Lomé IV","base treaty",0,0,1,1,0,1,0,3,0.424673765914658
+"589",589,"Macedonia Moldova","base treaty",1,1,0,0,0,0,0,2,0.494909674016849
+"590",590,"Macedonia Romania","base treaty",1,1,0,0,0,0,0,2,0.804999856253009
+"592",592,"Macedonia Slovenia","base treaty",1,1,0,0,0,0,0,2,0.561887801537881
+"593",593,"Macedonia Turkey","base treaty",1,1,0,0,0,0,0,2,0.494909674016887
+"594",594,"Macedonia Ukraine","base treaty",1,1,0,0,0,0,0,2,0.626004496540343
+"595",595,"Malawi Mozambique","base treaty",0,1,0,0,0,0,0,1,0.0977138215904128
+"598",598,"Malaysia New Zealand","base treaty",1,1,1,1,0,1,1,6,1.64216320790064
+"599",599,"Malaysia Pakistan","base treaty",1,1,1,1,0,0,0,4,1.48114533302936
+"600",600,"Mano River Union","base treaty",1,0,0,0,0,0,0,1,-1.43010338995022
+"601",601,"Mauritania Morocco","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"602",602,"Mauritius Pakistan","base treaty",0,1,0,0,0,0,0,1,-0.000736131923777576
+"603",603,"Melanesian Spearhead Group (MSG )","base treaty",0,0,0,0,0,0,0,0,-0.370565920730564
+"604",604,"MERCOSUR","base treaty",1,1,0,0,0,0,0,2,-0.738651317663818
+"607a",604,"MERCOSUR services","consolidated",1,1,0,1,0,0,0,3,0.561887801537834
+"605",605,"MERCOSUR Mexico Auto Agreement","base treaty",0,1,0,0,0,0,0,1,-0.535274955106839
+"606",606,"MERCOSUR Peru","base treaty",0,1,0,0,0,1,0,2,0.626004496540304
+"608",608,"MERCOSUR Southern African Customs Union (SACU)","base treaty",1,1,0,0,0,0,0,2,0.188140672867909
+"610",610,"Mexico Nicaragua","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"611",611,"Mexico Nicaragua","base treaty",1,1,1,1,1,0,1,6,1.64216321171874
+"612",612,"Mexico Northern Triangle","base treaty",1,1,1,1,0,0,1,5,1.69864976272811
+"613",613,"Mexico Panama","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"615",615,"Mexico Uruguay","base treaty",0,0,0,0,0,0,0,0,-1.00955547679033
+"616",616,"Mexico Uruguay","base treaty",1,1,1,1,0,1,1,6,1.75707348919218
+"617",617,"Moldova Romania","base treaty",1,1,0,0,0,0,0,2,0.097713821590424
+"619",619,"Moldova Serbia","base treaty",1,1,0,0,0,0,0,2,0.424673765914709
+"621",621,"Moldova Ukraine","base treaty",1,1,0,0,0,0,0,2,0.188140672867995
+"624",624,"Montenegro Turkey","base treaty",1,1,0,0,1,0,0,3,0.804999856253097
+"625",625,"Morocco Tunisia","base treaty",1,1,0,0,0,0,0,2,-0.535274956056514
+"626",626,"Morocco Turkey","base treaty",1,1,0,0,0,0,0,2,0.626004496729416
+"627",627,"Morocco UAE","base treaty",1,1,0,1,0,0,0,3,-0.23106409905757
+"628",628,"Morocco US","base treaty",1,1,1,1,1,0,1,6,2.01936534447258
+"630",630,"Namibia Zimbabwe","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"631",631,"New Zealand Singapore","base treaty",1,1,1,1,1,0,0,5,1.3782971146883
+"632",632,"New Zealand Thailand","base treaty",1,1,1,0,0,1,1,5,1.1760312680773
+"633",633,"Nicaragua Panama","base treaty",0,0,0,0,0,0,0,0,-0.738651317663838
+"634",634,"Nicaragua Taiwan","base treaty",1,1,1,1,0,1,1,6,1.75707348919213
+"635",635,"Nicaragua Venezuela","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"636",636,"North American Free Trade Agreement (NAFTA)","base treaty",1,1,1,1,1,1,1,7,2.09538158739737
+"637",637,"Oman US","base treaty",1,1,1,1,1,0,1,6,2.01936534447238
+"638",638,"Organisation of Eastern Caribbean States (OECS)","base treaty",1,0,0,0,0,0,0,1,-0.370565920730556
+"639",639,"Pacific Island Countries Trade Agreement (PICTA )","base treaty",1,0,0,0,0,0,0,1,-0.535274954869369
+"640",640,"Pakistan Sri Lanka","base treaty",1,1,0,0,0,0,0,2,-0.000736132045169113
+"641",641,"Panama Singapore","base treaty",1,1,1,1,1,1,0,6,1.53368650558758
+"642",642,"Panama Taiwan","base treaty",1,1,1,1,0,1,1,6,1.9483340266071
+"643",643,"Panama US","base treaty",1,1,1,1,1,0,1,6,2.01936534447257
+"644",644,"Peru Singapore","base treaty",1,1,1,1,1,1,0,6,1.58727301083759
+"645",645,"Peru US","base treaty",1,1,1,1,1,1,1,7,2.17754370770348
+"646",646,"Poland Turkey","base treaty",1,1,0,0,0,0,0,2,0.561887801537798
+"647",647,"Protocol on Trade Negotiations (PTN)","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"648",648,"Romania Serbia","base treaty",1,1,0,0,0,0,0,2,0.747268409002043
+"649",649,"Romania Slovakia","base treaty",1,1,0,0,1,0,0,3,0.494909674016849
+"650",650,"Romania Turkey","base treaty",1,0,0,0,0,0,0,1,0.27206615202711
+"654",654,"Russia Ukraine","base treaty",1,0,0,0,0,0,0,1,-0.370565920730576
+"656",656,"Saudi Arabia UAE","base treaty",1,0,0,0,0,0,0,1,-1.43010338995022
+"657",657,"Serbia Turkey","base treaty",1,1,0,0,1,0,0,3,0.747268409002065
+"658",658,"Singapore US","base treaty",1,1,1,1,1,1,1,7,1.8178293780009
+"659",659,"Slovakia Slovenia","base treaty",1,1,0,0,0,0,0,2,-0.000736132187356486
+"660",660,"Slovakia Turkey","base treaty",1,1,0,0,0,0,0,2,0.494909674016875
+"661",661,"Slovenia Turkey","base treaty",1,1,0,0,0,0,0,2,0.272066152027201
+"663",663,"South Africa Southern Rhodesia Customs Union","base treaty",1,0,0,0,0,0,0,1,-1.43010338995022
+"664",664,"South Africa Zimbabwe","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"666",666,"South Asian Association for Regional Cooperation, Preferential Trading Arrangement (SAPTA)","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"667",667,"South Asian Free Trade Area (SAFTA)","base treaty",1,0,0,0,0,0,0,1,-0.535274954878848
+"668",668,"South Pacific Trade and Economic Co Operation Agreement (SPARTECA )","base treaty",0,1,0,0,0,0,0,1,-1.43010338995022
+"669",669,"Southern Africa Customs Union (SACU)","base treaty",1,1,0,0,0,0,0,2,-1.00955547679029
+"670",670,"Southern Africa Customs Union (SACU)","base treaty",1,1,0,0,0,0,0,2,-0.535274955106827
+"671",671,"Southern African Development Community (SADC)","base treaty",0,0,0,0,0,0,0,0,-1.00955547679044
+"672a",671,"Southern African Development Community (SADC)","consolidated",1,1,0,0,0,0,0,2,0.350621385946022
+"675",675,"Syria Turkey","base treaty",1,1,0,0,0,0,0,2,0.56188780153779
+"677",677,"Tajikistan Ukraine","base treaty",1,1,0,0,0,0,0,2,-0.53527495491679
+"679",679,"Trans Pacific Strategic EPA","base treaty",1,1,0,1,1,1,1,6,1.42941883671843
+"680",680,"Treaty of Economic Association","base treaty",1,0,0,0,0,0,0,1,-0.231064099057717
+"681",681,"Trinidad and Tobago Venezuela","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"682",682,"Tripartite Agreement","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"683",683,"Tunisia Turkey","base treaty",1,1,0,0,0,1,0,3,0.62600449654031
+"684",684,"Turkmenistan Ukraine","base treaty",1,0,0,0,0,0,0,1,-0.10931383312813
+"686",686,"Ukraine Uzbekistan","base treaty",1,1,0,0,0,0,0,2,-0.231064098936728
+"687",687,"United States Vietnam","base treaty",0,1,1,1,0,0,1,4,1.53368650558772
+"688",688,"West African Economic and Monetary Union","base treaty",1,1,0,1,0,1,0,4,0.350621385945987
+"689",689,"Yaoundé I","base treaty",0,0,1,1,0,0,0,2,0.494909674016849
+"690",690,"Yaoundé II","base treaty",1,0,1,1,0,0,0,3,0.494909674016849
+"693a",694,"Andean Community Auto Agreement","consolidated",1,0,0,0,0,0,0,1,-1.00955547679044
+"697",697,"Argentina Uruguay","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"698",698,"Argentina Uruguay","base treaty",1,0,0,0,0,0,0,1,-1.00955547679032
+"699",699,"Argentina Uruguay","base treaty",1,0,0,0,0,0,0,1,-1.00955547679032
+"700",700,"Arusha Agreement I","base treaty",1,0,0,1,0,0,0,2,-0.23106409905757
+"706",706,"Benelux Economic Union","base treaty",1,1,0,1,1,0,0,4,-0.109313833128144
+"715",715,"Chile Cuba","base treaty",0,1,0,0,0,0,0,1,-0.10931383312813
+"716",716,"Chile Peru","base treaty",1,1,1,1,0,1,0,5,1.3275864535281
+"732",732,"Faroe Islands Finland","base treaty",1,1,0,0,1,0,0,3,-0.231064099057634
+"742",742,"Guinea Morocco","base treaty",0,0,0,0,0,0,0,0,-1.00955547679044
+"764",764,"Malawi Zimbabwe","base treaty",1,1,0,0,0,0,0,2,-0.370565920730538
+"767",767,"Mexico Peru","base treaty",0,0,0,0,0,0,0,0,-0.738651317663838
+"768",768,"Morocco Saudi Arabia","base treaty",0,0,0,0,0,0,0,0,-0.847705687290551
+"769",769,"Morocco Senegal","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"771",771,"Peru Thailand","base treaty",0,1,0,0,0,0,0,1,-0.370565920730518
+"772",772,"PTA for Eastern and Southern African States","base treaty",0,1,0,0,0,0,0,1,-0.535274955106825
+"780",780,"West African Economic Community (CEAO)","base treaty",1,0,0,0,0,0,0,1,-0.738650751673803
+"781",781,"Paraguay Venezuela","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"782",782,"Uruguay Venezuela","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"783",783,"Canada Portugal","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"784",784,"Canada Spain","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"787",787,"East African Community (EAC)","base treaty",1,1,0,0,0,0,0,2,-0.625924320953715
+"788",788,"East Caribbean Common Market","base treaty",1,1,0,0,0,0,0,2,-0.738650751673896
+"789",789,"MERCOSUR Southern African Customs Union (SACU)","base treaty",0,1,0,0,0,0,0,1,0.188140672867909
+"790",790,"El Salvador Guatemala","base treaty",1,0,0,0,0,0,0,1,-1.43010338995022
+"792",792,"Brazil Uruguay","base treaty",0,0,0,0,0,0,0,0,-1.43010338995022
+"793",793,"EC Switzerland Bilaterals I","base treaty",1,1,0,1,1,0,1,5,1.2760433002379
+"795",795,"Australia Malaysia","base treaty",1,1,1,1,0,1,1,6,1.58667651620851
+"797",797,"Canada Honduras","base treaty",1,1,1,1,1,1,0,6,1.48042898484962
+"798",798,"Canada Panama","base treaty",1,1,1,1,1,1,0,6,1.53303332811036
+"799",799,"Central America EC","base treaty",1,1,1,1,1,1,1,7,1.69815001794415
+"800",800,"Chile Malaysia","base treaty",1,1,1,0,0,0,0,3,0.487857522695063
+"801",801,"Chile Thailand","base treaty",1,1,0,1,0,0,0,3,0.621041369860671
+"803",803,"Chile Vietnam","base treaty",1,1,0,0,0,0,0,2,0.17215335074139
+"804",804,"China Costa Rica","base treaty",1,1,1,1,0,0,1,5,1.12385393660114
+"805",805,"Colombia Costa Rica","base treaty",1,1,1,1,1,1,1,7,1.94797795321653
+"806",806,"Colombia Israel","base treaty",1,1,1,1,1,0,0,5,1.17484322801381
+"808",808,"Colombia Korea","base treaty",1,1,1,1,1,1,1,7,1.94797795321662
+"809",809,"Colombia Panama","base treaty",1,1,1,1,1,1,0,6,1.81444378797647
+"810",810,"Colombia Peru EC","base treaty",1,1,1,1,1,1,1,7,1.75661471752183
+"811",811,"Commonwealth of Independent States (CIS)","base treaty",1,1,0,0,0,0,0,2,-0.144776267421754
+"813",813,"Costa Rica Peru","base treaty",1,1,1,1,1,1,1,7,1.94797795321654
+"814",814,"Costa Rica Singapore","base treaty",1,1,1,1,1,1,0,6,1.5330333281106
+"815",815,"EC Korea","base treaty",1,1,1,1,1,1,1,7,2.26714643254156
+"817",817,"EFTA Hong Kong","base treaty",1,1,1,1,0,1,1,6,1.64161748755356
+"818",818,"EFTA Montenegro","base treaty",1,1,0,0,0,0,1,3,0.967429643826601
+"819",819,"EFTA Peru","base treaty",1,1,1,0,1,1,1,6,1.6416174875536
+"820",820,"EFTA Ukraine","base treaty",1,1,1,1,1,1,1,7,1.93183576834747
+"821",821,"Egypt MERCOSUR","base treaty",1,1,0,0,0,0,0,2,0.17215335074139
+"823",823,"Guatemala Peru","base treaty",1,1,1,1,1,1,1,7,1.88100425873014
+"825",825,"Hong Kong New Zealand","base treaty",1,1,1,1,1,1,0,6,1.51029586969121
+"826",826,"India Japan","base treaty",1,1,1,1,0,1,0,5,1.32662805671977
+"827",827,"India Malaysia","base treaty",1,1,1,1,0,0,0,4,1.09060797616588
+"829",829,"Japan Peru","base treaty",1,1,1,1,1,1,1,7,1.93183576834754
+"830",830,"Korea Peru","base treaty",1,1,1,1,1,1,1,7,2.08068162023371
+"831",831,"Korea Turkey","base treaty",1,1,0,0,0,1,1,4,0.967429643826554
+"832",832,"Mauritius Turkey","base treaty",1,1,0,0,0,0,0,2,-0.027280325311892
+"833",833,"Montenegro Ukraine","base treaty",1,1,1,1,0,0,0,4,0.87259432669772
+"834",834,"New Zealand Taiwan","base treaty",1,1,1,1,1,1,1,7,1.6784059003958
+"836",836,"Pacific Alliance","base treaty",1,1,1,1,1,0,1,6,1.32662805671972
+"837",837,"Panama Peru","base treaty",1,1,1,1,1,1,1,7,1.94797795321653
+"838",838,"Peru Venezuela","base treaty",0,1,0,0,0,0,0,1,-0.441026861350697
+"840",840,"Australia China","base treaty",1,1,1,1,0,0,1,5,1.17484322801371
+"842",842,"Australia Japan","base treaty",1,1,1,1,1,1,1,7,1.73780124065261
+"844",844,"Bosnia and Herzogovina EFTA","base treaty",1,1,0,0,0,0,1,3,0.967429643826601
+"848",848,"Canada EC (CETA)","base treaty",1,1,1,1,1,1,1,7,1.698150017888
+"852",852,"Canada Korea","base treaty",1,1,1,1,0,1,1,6,1.81740797557902
+"858",858,"Chile Hong Kong","base treaty",1,1,1,1,1,1,0,6,1.27604330023795
+"862",862,"China Switzerland","base treaty",1,1,1,1,0,1,1,6,1.67840590039582
+"864",864,"Central America EFTA","base treaty",1,1,1,1,1,1,1,7,1.93183576834764
+"866",866,"EC Georgia","base treaty",1,1,1,1,1,1,1,7,2.16374915229156
+"872",872,"EC Moldova","base treaty",1,1,1,1,1,1,1,7,2.16374915229156
+"874",874,"EC Singapore","base treaty",1,1,1,1,1,1,1,7,2.01903870920396
+"876",876,"EC Ukraine","base treaty",1,1,1,1,1,1,1,7,1.48042898484965
+"877",877,"EC Vietnam","base treaty",1,1,1,1,1,1,1,7,1.8174079755791
+"891",891,"Mexico Panama","base treaty",1,1,1,1,0,0,1,5,1.58667651620842
+"899",899,"Transpacific Partnership (TPP)","base treaty",1,1,1,1,1,1,1,7,1.88100425873019
+"908",908,"Colombia Mexico Venezuela","base treaty",1,1,1,1,1,0,1,6,1.6416174875536
+"909",909,"China Korea","base treaty",1,1,1,1,0,1,1,6,1.48042898484975
+"911",911,"Australia Korea","base treaty",1,1,1,1,1,1,0,6,1.56497510128452
+"930",930,"Japan Mongolia","base treaty",1,1,1,1,0,1,0,5,1.22549960298725
+"943",943,"Malaysia Turkey","base treaty",1,1,0,0,0,0,0,2,0.077331973359849
+"955",955,"China Iceland","base treaty",1,1,1,1,0,1,0,5,1.17484322801397
