@@ -4,16 +4,7 @@
 library(xtable)
 xtable(summary(dtfull), latex.environments = "center")
 
-# 2. Regression Tables ####
-library(stargazer)
-stargazer(model1, #model2, model3,
-          title = "DV Interest Rate"
-          #, dep.var.labels = c("test1","test2")
-          )
-
-stargazer(model1, title = "DV Interest Rate", type = "text")
-
-# 3. Graphics ####
+# 2. Graphics - Interaction Plot ####
 # library(interplot)
 # interplot(m = fixed2, var1 = "depthacc", var2 = "nettrade")
 # 
@@ -158,6 +149,45 @@ interaction_plot_continuous(modprat5,"log1p(depthacc)","negsqrt(nettrade)",
 for different levels of NETTRADE",
                             xlabel = "Cube Root of NETTRADE",
                             ylabel = "Marginal Effect of DEPTH on PRAT+2")
+
+
+# 3. Graphics - Appendix ####
+# Number 1
+# testdf <- dtfull
+# plot(pratp1 ~ depthacc, data = testdf)
+# abline(h = 0, col = "green")
+# abline(lm(testdf$pratp1 ~ testdf$depthacc), col="red")
+
+fit <- lm(testdf$pratp1 ~ testdf$depthacc)
+ggplot(testdf, aes(x=depthacc, y=pratp1)) +
+  geom_point(shape=1, size=2) +
+  scale_x_continuous(name = "DEPTH") +
+  scale_y_continuous(name = "PRAT t+1") +
+  geom_hline(yintercept=0, color = "green") +
+  geom_abline(intercept = coef(fit)[1], slope = coef(fit)[2], col="red") +
+  theme(panel.background = element_rect(fill = "white"),
+        plot.background = element_rect(fill = "#F2F2F2"),
+        panel.grid.major = element_line("#D8D8D8"))
+
+# Number 2
+#plot(undervalp1 ~ depthacc, col = as.numeric(cut_number(testdf$nettrade,3)),
+#     data = testdf, pch = 5, las=1)
+#abline(h=0)
+
+testdf$nettradefac <- as.factor(as.numeric(cut_number(testdf$nettrade,3)))
+ggplot(testdf, aes(x=depthacc, y=undervalp1, color= nettradefac)) +
+  geom_point(shape=4, size=2) + 
+  scale_colour_manual(name="NETTRADE",
+                      values=c("green", "black", "red"),
+                      labels=c("Surplus","Balanced","Deficit")) +
+  scale_x_continuous(name = "DEPTH") +
+  scale_y_continuous(name = "UNDERVAL t+1") +
+  geom_hline(yintercept=0) +
+  theme(panel.background = element_rect(fill = "white"),
+        plot.background = element_rect(fill = "#F2F2F2"),
+        panel.grid.major = element_line("#D8D8D8"))
+
+
 
 
 # 4. Data ####

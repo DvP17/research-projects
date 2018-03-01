@@ -312,24 +312,53 @@ for (i in 1:nrow(dtfull)){
   }
 }
 
-testdf1 <- dtfull
-ptestdf1 <-  pdata.frame(testdf1, index = c("cname","entryforceyear"))
+for (i in 1:nrow(dtfull)){
+  if (isTRUE(dtfull$cname[i] == dtfull$cname[i+1])){
+    dtfull$decreasep1[i] <- dtfull$decrease[i+1]
+  }
+}
 
-ptestmod <- plm(increase ~ log1p(depthacc)*debtgdp 
+testdf <- dtfull
+ptestdf <-  pdata.frame(testdf, index = c("cname","entryforceyear"))
+
+modcbi1 <- plm(increase ~ log1p(depthacc)*debtgdp 
                 + log1p(depthacc)*negsqrt(nettrade)
                 + inflation + log(gdp) + polity + crisis 
                 + agreementsigned,
-                data=ptestdf1, model = "within", effect = "twoways")
-summary(ptestmod)
+                data=ptestdf, model = "within", effect = "twoways")
+summary(modcbi1)
 
-stargazer::stargazer(ptestmod,
-                     title = "Effect on CBI Increase", 
-                     dep.var.labels = c("Increase"),
+modcbi2 <- plm(increasep1 ~ log1p(depthacc)*debtgdp 
+               + log1p(depthacc)*negsqrt(nettrade)
+               + inflation + log(gdp) + polity + crisis 
+               + agreementsigned,
+               data=ptestdf, model = "within", effect = "twoways")
+summary(modcbi2)
+
+modcbi3 <- plm(decrease ~ log1p(depthacc)*debtgdp 
+               + log1p(depthacc)*negsqrt(nettrade)
+               + inflation + log(gdp) + polity + crisis 
+               + agreementsigned,
+               data=ptestdf, model = "within", effect = "twoways")
+summary(modcbi2)
+
+modcbi4 <- plm(decreasep1 ~ log1p(depthacc)*debtgdp 
+               + log1p(depthacc)*negsqrt(nettrade)
+               + inflation + log(gdp) + polity + crisis 
+               + agreementsigned,
+               data=ptestdf, model = "within", effect = "twoways")
+summary(modcbi2)
+
+stargazer::stargazer(modcbi1,modcbi2,modcbi3,modcbi4,
+                     title = "Effects on CBI Increase", 
+                     dep.var.labels = c("Increase","Increase+1",
+                                        "Decrease","Decrease+1"),
                      type = "latex",
                      keep.stat = c("rsq","n")
 )
 
-modunval4 <- plm(negsqrt(dunderval1) ~ log1p(depthacc)*negsqrt(nettrade)
+
+moddepth1 <- plm(negsqrt(dunderval1) ~ log1p(depthacc)*negsqrt(nettrade)
                  + log1p(depthacc)*lvau_garriga 
                  + log1p(depthacc)*debtgdp 
                  + inflation + log(gdp) + polity + crisis 
@@ -341,7 +370,57 @@ modunval4 <- plm(negsqrt(dunderval1) ~ log1p(depthacc)*negsqrt(nettrade)
                  + competition
                  + iprs,
                  data=ptestdf, model = "within", effect = "twoways")
-summary(modunval4)
+summary(moddepth1)
+
+moddepth2 <- plm(negsqrt(dunderval2) ~ log1p(depthacc)*negsqrt(nettrade)
+                 + log1p(depthacc)*lvau_garriga 
+                 + log1p(depthacc)*debtgdp 
+                 + inflation + log(gdp) + polity + crisis 
+                 + agreementsigned
+                 + standards
+                 + investments
+                 + services
+                 + procurement
+                 + competition
+                 + iprs,
+                 data=ptestdf, model = "within", effect = "twoways")
+summary(moddepth2)
+
+moddepth3 <- plm(negsqrt(dprat1) ~ log1p(depthacc)*negsqrt(nettrade)
+                 + log1p(depthacc)*lvau_garriga 
+                 + log1p(depthacc)*debtgdp 
+                 + inflation + log(gdp) + polity + crisis 
+                 + agreementsigned
+                 + standards
+                 + investments
+                 + services
+                 + procurement
+                 + competition
+                 + iprs,
+                 data=ptestdf, model = "within", effect = "twoways")
+summary(moddepth3)
+
+moddepth4 <- plm(negsqrt(dprat2) ~ log1p(depthacc)*negsqrt(nettrade)
+                 + log1p(depthacc)*lvau_garriga 
+                 + log1p(depthacc)*debtgdp 
+                 + inflation + log(gdp) + polity + crisis 
+                 + agreementsigned
+                 + standards
+                 + investments
+                 + services
+                 + procurement
+                 + competition
+                 + iprs,
+                 data=ptestdf, model = "within", effect = "twoways")
+summary(moddepth4)
+
+stargazer::stargazer(moddepth1,moddepth2,moddepth3,moddepth4,
+                     title = "Effects of Different Depth Variables", 
+                     dep.var.labels = c("dunval1","dunval2",
+                                        "dprat1","dprat1"),
+                     type = "latex",
+                     keep.stat = c("rsq","n")
+)
 
 ## NOTES ####
 # Notes: (PTA dichotom - ANOVA?)
