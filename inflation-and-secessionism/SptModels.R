@@ -182,5 +182,28 @@ interaction_plot_continuous(ptestmod1.2,"inflatavg","v2clsocgrp",
                             title = "Relationship between INFLATION and dANTIMOVEMENT \n for different levels of Ethnic Equality",
                             xlabel = "Ethnic Equality",
                             ylabel = "Marginal Effect of INFLATION on dANTIMOVEMENT")
-color <- rgb(0,255,0, alpha=80, maxColorValue=255)
+color <- rgb(0,255,0, alpha=60, maxColorValue=255)
 rect(xleft=-2, xright=-1.83, ybottom=-2, ytop=100, density=100, col=color)
+
+interaction_plot_continuous(ptestmod1.3,"inflatavg","popDensity",
+                            "inflatavg:popDensity",
+                            title = "Relationship between INFLATION and dAUTHTERR \n for different levels of Population Density",
+                            xlabel = "Population Density",
+                            ylabel = "Marginal Effect of INFLATION on dAUTHTERR")
+interaction_plot_continuous(ptestmod2.1,"inflatavg","ctrySize",
+                            "inflatavg:ctrySize",
+                            title = "Relationship between INFLATION and dCIVILWAR \n for different levels of Country Size",
+                            xlabel = "Country Size",
+                            ylabel = "Marginal Effect of INFLATION on dCIVILWAR")
+rect(xleft=1250, xright=1550, ybottom=-3, ytop=100, density=100, col=color)
+interaction_plot_continuous(ptestmod2.2,"inflatavg","popDensity",
+                            "inflatavg:popDensity",
+                            title = "Relationship between INFLATION and dSEPARATWAR \n for different levels of Population Density",
+                            xlabel = "Population Density",
+                            ylabel = "Marginal Effect of INFLATION on dSEPARATWAR")
+
+interaction_plot_continuous(ptestmod3.3,"inflatavg","v2clsocgrp",
+                            "inflatavg:v2clsocgrp",
+                            title = "Relationship between INFLATION and dANTI-TRUSTSOC \n for different levels of Ethnic Equality",
+                            xlabel = "Ethnic Equality",
+                            ylabel = "Marginal Effect of INFLATION on dANTI-TRUSTSOC")

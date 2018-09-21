@@ -64,6 +64,7 @@ dtwvs2$year <- as.numeric(dtwvs2$year)
 #3. Merging #############################################################
 colnames(dtInfl)[[3]] <- "inflation"
 colnames(dtDebt)[[3]] <- "debt"
+dtDebt$debt <- dtDebt$debt/1000000000
 colnames(dtSize)[[3]] <- "ctrySize"
 dtSize$ctrySize <- sqrt(dtSize$ctrySize)
 colnames(dtDens)[[3]] <- "popDensity"
@@ -103,7 +104,7 @@ rm(dtInfl,dtDebt,dtSize,dtDens)
 #WVS change variable names
 colnames(dtFullwvs)[25:27] <- c("national","trust1","trust2")
 
-#V-Dem clean of "-4" Values
+#WVS clean of "-4" Values
 dtFullwvs$trust1 <- ifelse(dtFullwvs$trust1 == -4, NA,
                            dtFullwvs$trust1)
 dtFullwvs$trust2 <- ifelse(dtFullwvs$trust2 == -4, NA,
