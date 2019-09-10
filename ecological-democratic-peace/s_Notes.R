@@ -38,13 +38,10 @@ devtools::install_github("mattflor/chorddiag")
 
 # 1. Set two directories: one for the project and one for the data
 # 2. Run s_DataMang.R (Attention! This can take up to 20 hours.)
-# 3. Run s_MainDtCOnstr.R (can take up to ...)
-# 4. Run s_AnalyWorld.R (can take up to ...)â‚¬
-# 5. Run s_AnalyDEU.R 
-# 6. Run s_AnalyCHE.R 
-# 7. Run s_AnalyAUT.R 
-# 8. Run s_VisualizationsFinal.R
+# 3. Run s_MainDtCOnstr.R (can take up to 30 min)
+# 4. Run s_AnalyWorld.R (can take up to 5 min)¬
+# 5. Run s_VisualPaper.R
 
 
-# Files for additional explanation: ExampleMRIOEora.R gives overview of the 
+# Files for additional explanation: s_ExampleEora.R gives overview of the 
 # calculation method employed
