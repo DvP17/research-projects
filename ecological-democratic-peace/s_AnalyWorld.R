@@ -2,7 +2,7 @@
 ##############################   F I N A L   ##############################|
 ###########################################################################|
 
-############################################################################
+
 ## LOAD ####################################################################
 load("~/MA-Thesis/Empirical Analysis/o_main_world.RData")
 # load("~/MA-Thesis/Empirical Analysis/o_main_world_s.RData")
@@ -37,7 +37,7 @@ main <- lapply(main, function(x){
 
 
 ###########################################################################|
-#############################   M O D E L S   #############################|
+#############################   M O D E L S   #############################
 ###########################################################################|
 
 # Formulas ----------------------------------------------------------------
@@ -81,6 +81,10 @@ m4 <- list(felm(f3, data = main$eora),
            felm(f3.4, data = main$eora),
            felm(f3.5, data = main$eora))
 
+# Notes
+f4 <- cf_cc ~ gdppcdiff*dem_world + res + cor + educ + cor + res | dyad + year + S1 # + distgroup
+f4 <- cf_cc ~ gdppcdiff*dem_world + res + cor + educ + cor + res | dyad + year + distgroup
+m5 <- lapply(main_long, function(x){felm(f4, data = x)})
 
 # Model Results -----------------------------------------------------------
 summary(m1$eora)
@@ -108,7 +112,7 @@ summary(m3$exio)
 
 
 ###########################################################################|
-#############################   T A B L E S   #############################|
+#############################   T A B L E S   #############################
 ###########################################################################|
 labsf <- function(...){
   x <- capture.output(stargazer::stargazer(..., type="text", table.layout = "t"))
@@ -158,7 +162,7 @@ m1.4 <- table_format(m1.4)
 m1.5 <- table_format(m1.5)
 
 
-# exio panel cc -----------------------------------------------------------
+# exio panel cc -----------------------------------------------------------|
 
 # Main World Models
 stargazer::stargazer(m1$eora, m2$eora, m3$eora, m1$exio, m2$exio, m3$exio,
@@ -254,7 +258,7 @@ stargazer::stargazer(m4[[1]], m4[[2]], m4[[3]], m4[[4]], m4[[5]],
                      # keep.stat = c("n", "rsq", "adj.rsq", "f"), # no f-statistic available for felm
                      out = c(paste0(wd, "tables/indicators_comp.tex"),
                              paste0(substr(wd, 1, 55), "Presentation/assets/indicators_comp.html")))
-tablewide("tables/indicators_comp.tex", padhor = 1.5)
+tablewide("tables/indicators_comp.tex", padhor = 0.25)
 
 
 
@@ -308,11 +312,17 @@ interaction_plot_continuous(m1.2$eora_d, "gdppcdiff", "dem_elec_C1", "dem_elec_C
 while (!is.null(dev.list()))  dev.off() # normal dev.off() has not worked properly in this case
 
 
+interaction_plot_continuous(m5$exio_s,"dem_world", "gdppcdiff", "gdppcdiff:dem_world",
+                            title = "a) Relationship between DEMELEC and EBO for GDP per capita differences (Eora)",
+                            xlabel = "Difference in GDP per capita between dyad partners",
+                            ylabel = "Marginal effect of electoral democracy differences on EBO")
+
+
 # Coefficients Plots -------------------------------------------------------
 
 # Comparing the environmental indicators
 library(ggplot2)
-pdf("~/MA-Thesis/Thesis/figures/indicators_comp.pdf", width = 12, height = 10)
+pdf("~/MA-Thesis/Thesis/figures/indicators_comp.pdf", width = 9, height = 6)
 dotwhisker::dwplot(m4, vline = geom_vline(xintercept = 0, colour = "grey60", linetype = 2),
                    dot_args = list(aes(shape = model))) +
   scale_color_manual(name  ="Env. Impact",
@@ -320,7 +330,7 @@ dotwhisker::dwplot(m4, vline = geom_vline(xintercept = 0, colour = "grey60", lin
                      breaks=c("Model 1", "Model 2", "Model 3", "Model 4", "Model 5"),
                      labels = c("CC", "BW", "EN", "LU", "MF")) +
   scale_shape_manual(name  ="Env. Impact",
-                     values = c(16, 17, 7, 18, 4),
+                     values = c(16, 1, 7, 17, 4),
                      breaks=c("Model 1", "Model 2", "Model 3", "Model 4", "Model 5"),
                      labels = c("CC", "BW", "EN", "LU", "MF")) +
   theme_bw() +
@@ -334,17 +344,17 @@ dev.off() # End
 
 # # Distribution of variables
 # pdf(paste0(wd, "graphics/diag1.pdf"), width = 7, height = 5)
-# hist(main$dem_elec, main = "Histogram of Electoral Democracy Distribution", xlab = "DEM_ELEC")
+# hist(main$eora$dem_elec, main = "Histogram of Electoral Democracy Distribution", xlab = "DEM_ELEC")
 # dev.off()
 # 
 # # Distribution of errors
-# qqnorm(residuals(m1), ylab = 'Residuals')
-# qqline(residuals(m1))
+# qqnorm(residuals(m1$eora), ylab = 'Residuals') #log1p does a better job than sqrt
+# qqline(residuals(m1$eora))
 
 
 
 ###########################################################################|
-#############   D E S C R I P T I V E   S T A T I S T I C S   #############|
+#############   D E S C R I P T I V E   S T A T I S T I C S   #############
 ###########################################################################|
 library(psych)
 tbl_eo <- describe(subset(main$eora, select = c("cf_bw","cf_cc","cf_en","cf_lu","cf_mf",
@@ -388,8 +398,105 @@ temp[12] <- paste(substr(temp[12], 1, 10), paste("&", format(c(tbl_ex[1,3], tbl_
 writeLines(temp, paste0(wd, "tables/descr_exio.tex")); rm(temp)
 
 
+
 ###########################################################################|
-########################   D I A G N O S T I C S   ########################|
+##################   R O B U S T N E S S   C H E C K S   ##################
+###########################################################################|
+
+# Exiobase without nowcasted
+robust_nowcasted <- subset(main$exio, year %in% 1995:2011)
+
+library(lfe)
+m1 <- felm(f1, data = robust_nowcasted)
+m2 <- felm(f2, data = robust_nowcasted)
+m3 <- felm(f3, data = robust_nowcasted)
+
+# Main World Models
+stargazer::stargazer(m1, m2, m3,
+                     digits = 2,
+                     covariate.labels = labsf(m1, m2, m3),
+                     dep.var.labels = c("EBO (Exiobase)"),
+                     star.cutoffs = c(0.1, 0.05, 0.01, 0.001),
+                     star.char = c("\\odot","*","**", "***"),
+                     notes = "$^{\\odot}$p $<$ 0.1; $^{*}$p $<$ 0.05; $^{**}$p $<$ 0.01; $^{***}$p $<$ 0.001",
+                     notes.append = F,
+                     type = "text",
+                     title = "Global effects on offloading CCI for Exiobase without nowcasted.",
+                     label = "tab:world_robust1",
+                     omit.stat = c("n", "rsq", "adj.rsq", "f", "ser"),
+                     add.lines = fstat(m1, m2, m3),
+                     # keep.stat = c("n", "rsq", "adj.rsq", "f"), # no f-statistic available for felm
+                     out = c(paste0(wd, "tables/world_robust1.tex"),
+                             paste0(substr(wd, 1, 55), "Presentation/assets/world_robust1.html")))
+tablewide("tables/world_robust1.tex", padver = .83, padhor = 1.99)
+
+# Binary Democracy
+f1 <- cf_cc ~ gdppcdiff*dem_dd + pta + ptaep + iea | dyad + year
+f2 <- cf_cc ~ gdppcdiff*dem_dd + pta + ptaep + iea + res + cor | dyad + year # + distgroup
+f3 <- cf_cc ~ gdppcdiff*dem_dd + pta + ptaep + iea + res + cor + educ + cor + res | dyad + year # + distgroup
+
+m1 <- lapply(main, function(x){felm(f1, data = x)})
+m2 <- lapply(main, function(x){felm(f2, data = x)})
+m3 <- lapply(main, function(x){felm(f3, data = x)})
+m1 <- table_format(m1)
+m2 <- table_format(m2)
+m3 <- table_format(m3)
+
+
+# Main World Models
+stargazer::stargazer(m1$eora, m2$eora, m3$eora, m1$exio, m2$exio, m3$exio,
+                     digits = 2,
+                     covariate.labels = labsf(m1$eora, m2$eora, m3$eora, m1$exio, m2$exio, m3$exio),
+                     dep.var.labels = c("EBO (Eora)", "EBO (Exiobase)"),
+                     star.cutoffs = c(0.1, 0.05, 0.01, 0.001),
+                     star.char = c("\\odot","*","**", "***"),
+                     notes = "$^{\\odot}$p $<$ 0.1; $^{*}$p $<$ 0.05; $^{**}$p $<$ 0.01; $^{***}$p $<$ 0.001",
+                     notes.append = F,
+                     type = "text",
+                     title = "Global effects on offloading CCI with democracy as binary variable.",
+                     label = "tab:world_robust2",
+                     omit.stat = c("n", "rsq", "adj.rsq", "f", "ser"),
+                     add.lines = fstat(m1$eora, m2$eora, m3$eora, m1$exio, m2$exio, m3$exio),
+                     # keep.stat = c("n", "rsq", "adj.rsq", "f"), # no f-statistic available for felm
+                     out = c(paste0(wd, "tables/world_robust2.tex"),
+                             paste0(substr(wd, 1, 55), "Presentation/assets/world_robust2.html")))
+tablewide("tables/world_robust2.tex", padver = .83, padhor = .4)
+
+
+
+# Without China
+robust_china <- lapply(main, function(x){x <- subset(x, C1 != "CHN" & C2 != "CHN" ); x})
+
+m1 <- lapply(robust_china, function(x){felm(f1, data = x)})
+m2 <- lapply(robust_china, function(x){felm(f2, data = x)})
+m3 <- lapply(robust_china, function(x){felm(f3, data = x)})
+m1 <- table_format(m1)
+m2 <- table_format(m2)
+m3 <- table_format(m3)
+
+
+stargazer::stargazer(m1$eora, m2$eora, m3$eora, m1$exio, m2$exio, m3$exio,
+                     digits = 2,
+                     covariate.labels = labsf(m1$eora, m2$eora, m3$eora, m1$exio, m2$exio, m3$exio),
+                     dep.var.labels = c("EBO (Eora)", "EBO (Exiobase)"),
+                     star.cutoffs = c(0.1, 0.05, 0.01, 0.001),
+                     star.char = c("\\odot","*","**", "***"),
+                     notes = "$^{\\odot}$p $<$ 0.1; $^{*}$p $<$ 0.05; $^{**}$p $<$ 0.01; $^{***}$p $<$ 0.001",
+                     notes.append = F,
+                     type = "text",
+                     title = "Global effects on offloading CCI without China.",
+                     label = "tab:world_robust3",
+                     omit.stat = c("n", "rsq", "adj.rsq", "f", "ser"),
+                     add.lines = fstat(m1$eora, m2$eora, m3$eora, m1$exio, m2$exio, m3$exio),
+                     # keep.stat = c("n", "rsq", "adj.rsq", "f"), # no f-statistic available for felm
+                     out = c(paste0(wd, "tables/world_robust3.tex"),
+                             paste0(substr(wd, 1, 55), "Presentation/assets/world_robust3.html")))
+tablewide("tables/world_robust3.tex", padver = .83, padhor = .3)
+
+
+
+###########################################################################|
+#######################   D I A G N O S T I C S   #########################
 ###########################################################################|
 
 # Homoscedasticity
@@ -429,7 +536,7 @@ plot(rectifytest$fitted.values, rectifytest$residuals, main="This plot uses LaTe
 
 
 ###########################################################################|
-############################   T E S T I N G   ############################|
+############################   T E S T I N G   ############################
 ###########################################################################|
 
 # Transformations
@@ -438,7 +545,7 @@ plot(rectifytest$fitted.values, rectifytest$residuals, main="This plot uses LaTe
 #   return(y)
 # }
 
-############################################################################
+
 ## plots ###################################################################
 submain <- main[which(main$dyad %in% c("AUS_AUT", "AUS_CAN")),]
 submain$id <- as.numeric(submain$dyad)
@@ -455,7 +562,7 @@ car::scatterplot(yhat ~ submain$gdppcdiff| submain$dyad, boxplots=FALSE, xlab="x
                  ylab="yhat",smooth=FALSE)
 
 
-############################################################################
+
 ## plm #####################################################################
 m1 <- plm(value ~ gdppcdiff + dist + colony + comlang_ethno, 
           data = main, index = c("dyad","year"), model = "pooling",
@@ -474,7 +581,7 @@ crbalt <- plm(lcrmrte ~ lprbarr + lpolpc + lprbconv + lprbpris + lavgsen +
               data = Crime, model = "random", inst.method = "baltagi")
 
 
-############################################################################
+
 ## R-Squared ###############################################################
 sst <- with(main, sum((value - mean(value))^2))
 m1b.sse <- t(residuals(m1b)) %*% residuals(m1b)
@@ -483,9 +590,19 @@ m1b.r2 <- (sst - m1b.sse) / sst
 N <- dim(main)[1]
 1 - (1 - m1b.r2)*((N - 1)/(N - length(coef(m1b)) - 1))
 
-############################################################################
+
 ## texreg ##################################################################
 texreg::screenreg(m1b, stars = c(0.001, 0.01, 0.05, 0.1))
 texreg::texreg(m1b, stars = c(0.001, 0.01, 0.05, 0.1), 
                out = "C:/Users/Nutzer/Documents/Studium Salzburg/MA-Thesis/Thesis/tables/pan_exio2")
 
+
+## other dem differences #########################################################
+
+main$eora$dem_world <- 0
+main$eora[which(main$eora$dem_world_C2 %in% 0:1 &
+                   main$eora$dem_world_C2 %in% 0:1),]$dem_world <- 1
+main$eora[which(main$eora$dem_world_C2 %in% 8:9 &
+                   main$eora$dem_world_C2 %in% 8:9),]$dem_world <- 2
+main$eora$dem_world <- as.factor(main$eora$dem_world)
+levels(main$eora$dem_world) <- c("nopeace", "autpeace", "dempeace")

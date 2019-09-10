@@ -141,11 +141,11 @@ save(exio_d_all, file = "o_exio_d_all.RData")
   # clean("exio_d_ws_pxp") -> exio_d_ws_pxp
   
   # colnames(exio_d_bl_pxp)[5] <- "cf_bl_pxp"
-  colnames(exio_d_bw_pxp)[5] <- "cf_bw_pxp"
-  colnames(exio_d_cc_pxp)[5] <- "cf_cc_pxp"
-  colnames(exio_d_en_pxp)[5] <- "cf_en_pxp"
-  colnames(exio_d_lu_pxp)[5] <- "cf_lu_pxp"
-  colnames(exio_d_mf_pxp)[5] <- "cf_mf_pxp"
+  colnames(exio_d_bw_pxp)[5] <- "cf_bw"
+  colnames(exio_d_cc_pxp)[5] <- "cf_cc"
+  colnames(exio_d_en_pxp)[5] <- "cf_en"
+  colnames(exio_d_lu_pxp)[5] <- "cf_lu"
+  colnames(exio_d_mf_pxp)[5] <- "cf_mf"
   # colnames(exio_d_ws_pxp)[5] <- "cf_ws_pxp"
   
   # merge(exio_d_bl_pxp, exio_d_bw_pxp) -> exio_d_all_pxp
@@ -183,7 +183,7 @@ dist$distgroup <- dist$distgroup <- cut(dist$dist, breaks = 10, labels = 1:10)
 # Merge
 distmain_exio <- merge(exio_d_all, dist, all = T)
 # distmain_exio_s <- merge(exio_d_all_s, dist, all = T)
-# distmain_exio_pxp <- merge(exio_d_all_s_pxp, dist, all = T)
+# distmain_exio_pxp <- merge(exio_d_all_pxp, dist, all = T)
 distmain_eora <- merge(eora_d_all, dist, all = T)
 rm(dist)
 
@@ -237,6 +237,17 @@ rm(wdi)
 ############################################################################
 ## REGIME ##################################################################
 vdem <- readRDS("C:/Data/VDEM/V-Dem-CY-Full+Others-v9.rds")
+dd <- readxl::read_xls("C:/Data/DD/ddrevisited_data_v1.xls")
+
+# Clean DD
+dd$country_text_id <- countrycode::countrycode(sourcevar = dd$cowcode,
+                                               origin = "cown", destination = "iso3c")
+dd <- subset(dd, year >= 1989)
+dd <- dd[which(colnames(dd) %in% c("country_text_id", "year", "democracy"))]
+'%ni%' <- Negate('%in%')
+drop <- unique(dd$country_text_id)[which(unique(dd$country_text_id) 
+                                         %ni% unique(vdem$country_text_id))]
+dd <- subset(dd, country_text_id %ni% drop)
 
 # Select relevant variables and year
 vdem <- subset(vdem, year %in% 1989:2015)
@@ -245,18 +256,24 @@ vdem <- subset(vdem, select = c(country_text_id, year, v2x_regime_amb,
                                 e_polity2, e_miurbani, e_total_resources_income_pc,
                                 e_ti_cpi, e_peaveduc))
 
+# Merge with DD
+vdem <- merge(vdem, dd, all = T)
+vdem <- subset(vdem, !is.na(country_text_id))
+
+
 # Change and add variables
 vdem2 <- vdem
 colnames(vdem2)[c(1, 3:length(vdem))] <- paste0(colnames(vdem2)[c(1, 3:length(vdem))], 2)
 vdem <- merge(vdem, vdem2); rm(vdem2)
 lab <- c("dem_world", "dem_elec", "dem_lib", "eq_res", "dem_polity",
-           "urban", "res", "cor", "educ")
+           "urban", "res", "cor", "educ", "dem_dd")
 colnames(vdem)[2:ncol(vdem)] <- c("C1", paste0(lab, "_C1"), "C2", paste0(lab, "_C2"))
 
 # Calculate Differences
 l <- (length(vdem)-3)/2
 vdem[(ncol(vdem)+1):(ncol(vdem)+length(lab))] <- vdem[(l+4):length(vdem)] -
                                                                    vdem[3:(l+2)]
+
 colnames(vdem)[(ncol(vdem)+1-length(lab)):ncol(vdem)] <- lab; rm(lab)
 
 # Merge
@@ -276,6 +293,19 @@ rm(vdem)
 # - e_total_resources_income_pc -> overall resource abundance
 # - e_ti_cpi -> corruption perception index
 # - e_peaveduc -> education
+
+
+# # Democratic Peace Measures
+# # being more democratic
+# vdem[(ncol(vdem)+1):(ncol(vdem)+length(lab))] <- (vdem[(l+4):length(vdem)] -
+#                                                   vdem[3:(l+2)])*vdem[(l+4):length(vdem)]
+# # being dem peace dicho
+# if (dem_world_C1 == 9 & dem_world_C2 == 9) {
+#   peace
+# }
+# 
+# # categorizing the dem peace
+# vdem[(ncol(vdem)+1):(ncol(vdem)+length(lab))] <- vdem[(l+4):length(vdem)] + vdem[3:(l+2)]
 
 
 
@@ -379,6 +409,8 @@ ptamain[which(is.na(ptamain[col_n])), col_n] <- 0
 ptamain <- ptamain[ptamain$year %in% 1989:2015,]
 
 ptamain_eora <- ptamain
+ptamain_eora <- ptamain_eora[-which(duplicated(paste0(ptamain_eora$C1,
+                           ptamain_eora$C2, ptamain_eora$year), fromLast = T)),]
 
 # Merge with main data from Exiobase ----------------------------------------
 ptamain <- merge(exio_d_all, pta, all = T)
@@ -406,6 +438,9 @@ ptamain[which(is.na(ptamain[col_n])), col_n] <- 0
 ptamain <- ptamain[ptamain$year %in% 1994:2015,]
 
 ptamain_exio <- ptamain
+ptamain_exio <- ptamain_exio[-which(duplicated(paste0(ptamain_exio$C1,
+                           ptamain_exio$C2, ptamain_exio$year), fromLast = T)),]
+
 
 # Note:
 # include pxp and s
@@ -429,9 +464,9 @@ for (i in unique(iea$country)) {
   iea[which(iea$country == i), 5] <- seq(1:length(which(iea$country == i)))
 }
 
-# Remove duplicates
-iea$dup <- substr(iea$dup, 5, 11)
-iea <- iea[-which(duplicated(iea$dup)),]
+# Remove multiple entries for same year
+iea$dup <- paste0(iea$country, iea$year)
+iea <- iea[-which(duplicated(iea$dup, fromLast = T)),]
 
 iea <- iea[, c(2, 3, 5)]
 iea2 <- iea
@@ -474,13 +509,24 @@ main_exio <- merge(main_exio, ptamain_exio, all = T)
 main_exio <- merge(main_exio, ieamain_exio, all = T)
 # rm(distmain_exio, wdimain_exio, regmain_exio, ptamain_exio, ieamain_exio)
 
+main_exio_s <- merge(distmain_exio_s, wdimain_exio_s, all = T)
+main_exio_s <- merge(main_exio_s, regmain_exio_s, all = T)
+
+main_exio_pxp <- merge(distmain_exio_pxp, wdimain_exio_pxp, all = T)
+main_exio_pxp <- merge(main_exio_pxp, regmain_exio_pxp, all = T)
+
+
 # Create List -------------------------------------------------------------
 main <- list(eora = main_eora, exio = main_exio)
+main_long <- list(exio_s = main_exio_s, exio_pxp = main_exio_pxp)
 # rm(main_exio, main_eora)
 
 # Creating dyads ----------------------------------------------------------
 main <- lapply(main, function(x) {x$dyad <- paste0(x$C1, "_", x$C2); x})
 main <- lapply(main, function(x) {x$dyad <- as.factor(x$dyad); x})
+
+main_long <- lapply(main_long, function(x) {x$dyad <- paste0(x$C1, "_", x$C2); x})
+main_long <- lapply(main_long, function(x) {x$dyad <- as.factor(x$dyad); x})
 
 # Lag ---------------------------------------------------------------------
 library(data.table)
@@ -489,8 +535,15 @@ nm1 <- colnames(main$eora)[-c(grep("year", colnames(main$eora)),
 main <- lapply(main, function(x) {x <- as.data.table(x)[, (nm1) := shift(.SD),
                                                         by = dyad, .SDcols=nm1]; x})
 
+nm1 <- colnames(main_long$exio_s)[-c(grep("year", colnames(main_long$exio_s)),
+                              grep("cf_", colnames(main_long$exio_s)))]
+main_long <- lapply(main_long, function(x) {x <- as.data.table(x)[, (nm1) := shift(.SD),
+                                                        by = dyad, .SDcols=nm1]; x})
+
 # Cleaning empty rows -----------------------------------------------------
 main <- lapply(main, function(x){x[!is.na(x$cf_cc),]})
+
+main_long <- lapply(main_long, function(x){x[!is.na(x$cf_cc),]})
 
 # Scaling -----------------------------------------------------------------
 main$exio$cf_cc <- main$exio$cf_bl*100000000
@@ -515,6 +568,7 @@ main <- lapply(main, function(x) {x$cor <- x$cor * -1; x})
 
 # Save --------------------------------------------------------------------
 save(main, file = "o_main_world.RData")
+save(main_long, file = "o_main_world_long.RData")
 
 
 
@@ -534,23 +588,6 @@ save(main_c, file = "o_main_countries.RData")
 ###########################################################################|
 ##############################   N O T E S   ##############################|
 ###########################################################################|
-
-# Germany
-# values of germany
-# ger <- y$gdppc[which(y$C1 == "DEU")]
-
-# calculate difference between gdp
-# y$gdppcdif <- y$gdppc - ger
-# yy <- subset(y, select = c(year, C1, gdppcdif))
-
-# main <- subset(main, gdppcdif <= 0)
-# mainsum <- aggregate(main$value, by = list(main$year, main$C1), FUN=sum)
-
-
-# Deleted
-# load("C:/Data/Eora/eoradyadspdhouse.RData")
-# dyads <- exiodyadshouse; rm(exiodyadshouse)
-
 
 
 # Formerly in cleaning section
